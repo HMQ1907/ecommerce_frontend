@@ -1,0 +1,84 @@
+html {
+  .bg-success {
+    color: white !important;
+  }
+
+  .bg-primary {
+    color: $white !important;
+  }
+
+  .bg-secondary {
+    color: $white !important;
+  }
+
+  .bg-warning {
+    color: $white !important;
+  }
+}
+
+.border,
+.v-divider {
+  border-color: rgba(var(--v-border-color), 1) !important;
+  opacity: 1;
+}
+//*Calender font-color*//
+.vc-container,
+.vc-pane-container {
+  font-family: inherit !important;
+  border-color: rgba(var(--v-border-color), 1) !important;
+}
+.vc-title {
+  color: inherit !important;
+}
+.vc-select select,
+.vc-am-pm {
+  color: inherit !important;
+  background-color: inherit !important;
+}
+
+.v-row--dense > .v-col,
+.v-row--dense > [class*='v-col-'] {
+  padding: 6px;
+}
+
+.vxe-table--render-default .vxe-cell {
+  word-break: break-word !important;
+
+  // TODO: customize header of table
+  &--title {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+}
+
+// TODO: set chip in table has height 28px
+.vxe-body--column .v-chip.v-chip--size-default {
+  --v-chip-height: 28px;
+}
+
+// TODO: hide sprint button in type number of text field
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.v-selection-control {
+  gap: 8px;
+}
+
+// set height for date picker
+.density-input {
+  .v-input--density-compact .v-input__control {
+    --v-input-control-height: 40px;
+    --dp-month-year-row-height: 40px; /*Height of the month-year select row*/
+    --dp-month-year-row-button-size: 40px; /*Specific height for the next/previous buttons*/
+    input {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import { useDisplay } from 'vuetify'
+const { xs, lgAndUp } = useDisplay()
+const sDrawer = ref(false)
+</script>
+
+<template>
+  <!---/Left chat list -->
+  <div class="d-flex mainbox">
+    <div v-if="lgAndUp" class="left-part">
+      <!-- <perfect-scrollbar style="height: calc(100vh - 290px)"> -->
+      <slot name="leftpart" />
+      <!-- </perfect-scrollbar> -->
+    </div>
+
+    <!---right chat conversation -->
+    <div class="right-part">
+      <!---Toggle Button For mobile-->
+      <v-btn block class="d-lg-none d-md-flex d-sm-flex" variant="text" @click="sDrawer = !sDrawer">
+        <Menu2Icon class="mr-2" size="20" />
+        Menu
+      </v-btn>
+      <v-divider class="d-lg-none d-block" />
+      <slot name="rightpart" />
+    </div>
+
+    <!---right chat conversation -->
+  </div>
+
+  <v-navigation-drawer v-if="!lgAndUp" v-model="sDrawer" temporary top width="320">
+    <v-card-text class="pa-0">
+      <slot name="mobileLeftContent" />
+    </v-card-text>
+  </v-navigation-drawer>
+</template>
+
+<style lang="scss">
+.mainbox {
+  position: relative;
+  overflow: hidden;
+}
+.left-part {
+  width: 320px;
+  border-right: 1px solid rgb(var(--v-theme-borderColor));
+  min-height: 500px;
+  transition: 0.1s ease-in;
+  flex-shrink: 0;
+}
+.v-theme--light {
+  .left-part {
+    background: white;
+  }
+}
+.v-theme--dark {
+  .left-part {
+    background: #2b2b2b;
+  }
+}
+.right-part {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+}
+</style>

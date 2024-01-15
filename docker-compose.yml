@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  application:
+    build:
+      context: .
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.nuxt-app.rule=Host(`${CERTBOT_DOMAIN}`)
+      - traefik.http.routers.nuxt-app.entrypoints=https
+      - traefik.http.routers.nuxt-app.service=nuxt-app
+      - traefik.http.routers.nuxt-app.tls.certresolver=letsencrypt
+      - traefik.http.services.nuxt-app.loadbalancer.server.port=80
+    env_file:
+      - .env
+    ports:
+      - 3000:80
+    networks:
+      - traefik-net
+
+networks:
+  traefik-net:
+    external: true

@@ -1,0 +1,1491 @@
+{
+  "common": {
+    "model": {
+      "noData": "Không có dữ liệu",
+      "created_at": "Ngày tạo",
+      "action": "",
+      "name": "Tên"
+    },
+    "action": {
+      "view": "Chi tiết",
+      "edit": "Sửa",
+      "update": "Cập nhật",
+      "delete": "Xóa",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "reset": "Bỏ lọc",
+      "filter": "Lọc",
+      "additionFilter": "Lọc nâng cao",
+      "apply": "Lọc",
+      "create": "Tạo",
+      "export": "Xuất tệp tin",
+      "addSalary": "Tạo lương",
+      "updateSalary": "Cập nhật lương",
+      "historySalary": "Lịch sử lương",
+      "confirm": "Xác nhận",
+      "sendMail": "Gửi email",
+      "uploadFile": "Tải tệp lên",
+      "close": "Đóng"
+    },
+    "filter": {
+      "title": "Bộ Lọc",
+      "exit": "Thoát",
+      "dateFrom": "Từ ngày",
+      "dateTo": "Đến ngày",
+      "rangeDate": "Từ ngày ~ đến ngày",
+      "searchByName": "Tìm theo tên",
+      "month": "Tháng",
+      "date": "Ngày"
+    },
+    "input": {
+      "more": "nữa"
+    },
+    "message": {
+      "createSuccess": "Tạo thành công",
+      "updateSuccess": "Cập nhật thành công",
+      "deleteSuccess": "Xóa thành công",
+      "loadingStatus": "Đang thay đổi trạng thái..."
+    }
+  },
+  "upload": {
+    "model": {
+      "allowed": "Cho phép {_types_}",
+      "maxSizeOf": "kích thước tối đa là {_size_} bytes"
+    },
+    "action": {
+      "dropOrSelectFile": "Thả hoặc Chọn tệp",
+      "dropHereOrClick": "Thả tệp tin ở đây hoặc nhấp vào",
+      "browse": "duyệt",
+      "thoroughYourMachine": "trên máy của bạn",
+      "removeAll": "Xóa tất cả",
+      "uploadFiles": "Tải tệp lên",
+      "updatePhoto": "Cập nhật ảnh",
+      "uploadPhoto": "Tải ảnh lên"
+    },
+    "notice": {
+      "error": "Định dạng tệp không hỗ trợ hoặc có lỗi xảy ra, vui lòng chọn tệp khác!"
+    }
+  },
+  "changePassword": {
+    "title": "Đổi mật khẩu",
+    "model": {
+      "currentPassword": "Mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "newPasswordConfirmation": "Nhập lại mật khẩu mới"
+    }
+  },
+  "projectMembers": {
+    "title": "DANH SÁCH THÀNH VIÊN",
+    "model": {
+      "name": "Tên thành viên",
+      "add": "Thêm thành viên"
+    },
+    "action": {
+      "create": "THÊM THÀNH VIÊN",
+      "save": "LƯU"
+    },
+    "message": {
+      "title": "Xóa Thành Viên",
+      "text": "Bạn có chắc muốn xóa thành viên này!",
+      "deleteSuccess": "Xóa thành viên thành công"
+    }
+  },
+  "users": {
+    "title": {
+      "list": "Danh Sách Người Dùng"
+    },
+    "label": {
+      "fullName": "Họ và tên"
+    },
+    "action": {
+      "create": "Tạo người dùng"
+    }
+  },
+  "attendance": {
+    "title": "Chấm công",
+    "model": {
+      "name": "Tên nhân viên",
+      "totalHoursInMonth": "Tổng giờ/tháng",
+      "note": "Ghi chú",
+      "check": "Có mặt",
+      "unCheck": "Vắng mặt",
+      "employee": "Nhẫn viên",
+      "clock_in": "Giờ vào",
+      "date": "Ngày",
+      "clock_out": "Giờ ra",
+      "total": "Tổng cộng",
+      "image": "Hình ảnh chấm công",
+      "viewAttendance": "Chi tiết chấm công",
+      "workTime": "Thời gian làm việc"
+    },
+    "action": {
+      "createAttendance": "Tạo chấm công mới",
+      "updateAttendance": "Cập nhật chấm công mới"
+    }
+  },
+  "purchase": {
+    "title": "Đơn mua hàng",
+    "model": {
+      "code": "Mã mua hàng",
+      "unitBusinessCode": "Mã số ĐVKD",
+      "suppliers": "Tên nhà cung cấp",
+      "purchaseDate": "Ngày mua",
+      "accountingDate": "Ngày hạch toán",
+      "totalPayment": "Tổng tiền thanh toán",
+      "status": "Trạng thái",
+      "paymentStatus": "Trạng thái thanh toán",
+      "create": "Tạo đơn mua hàng"
+    }
+  },
+  "stock": {
+    "title": "Tồn kho",
+    "model": {
+      "code": "Mã SP",
+      "name": "Tên sản phẩm",
+      "unit": "Đơn vị",
+      "warehouse": "Kho",
+      "lotNumber": "Dãy",
+      "refNumber": "Vị trí",
+      "before": "Tồn đầu kỳ",
+      "quantity": "Số lượng",
+      "value": "Giá trị",
+      "increase": "Nhập trong kỳ",
+      "decrease": "Xuất trong kỳ",
+      "after": "Tồn cuối kỳ",
+      "total": "Tổng cộng"
+    }
+  },
+  "employees": {
+    "title": "Danh sách nhân viên",
+    "model": {
+      "employee_code": "Mã nhân viên",
+      "lastName": "Họ nhân viên",
+      "firstName": "Tên nhân viên",
+      "DOB": "Ngày sinh",
+      "phone": "Số điện thoại",
+      "joiningDate": "Ngày vào làm",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "passwordConfirmation": "Nhập lại mật khẩu",
+      "type": "Loại nhân viên",
+      "role": "Vai trò",
+      "gender": "Giới tính",
+      "address": "Địa chỉ",
+      "name": "Tên nhân viên",
+      "user": "Người dùng",
+      "userType": "Loại người dùng",
+      "passwordNotMatch": "Mật khẩu không khớp",
+      "createAt": "Ngày tạo",
+      "branch": "Chi nhánh",
+      "department": "Phòng ban",
+      "designation": "Chức vụ",
+      "dateToCompany": "Ngày vào công ty",
+      "education": "Trình độ học vấn",
+      "allowance": "Phụ cấp",
+      "dateToJob": "Ngày vào làm",
+      "dateOfEngagement": "Ngày ký hợp đồng",
+      "indicator": "Chỉ số",
+      "dateOfBirth": "Ngày sinh",
+      "job": "Job",
+      "jg": "JG",
+      "service": "Service",
+      "employeeCode": "Mã nhân viên",
+      "positionType": "Loại chức vụ",
+      "manager": "Quản lý",
+      "employee": "Nhân viên",
+      "totalEmployee": "Tổng nhân viên",
+      "totalManager": "Tổng quản lý",
+      "totalContract": "Tổng nhân viên hộp đồng",
+      "totalRemoval": "Tổng nhân viên nghỉ việc",
+      "totalEmployeeFluctuate": "Tổng nhân viên biến động theo tháng",
+      "totalEmployeeSalaryFluctuate": "Tổng Lương nhân viên biến động theo tháng",
+      "employeeType": "Loại nhân viên"
+    },
+    "gender": {
+      "male": "Nam",
+      "female": "Nữ",
+      "others": "Khác"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "type": {
+      "staff": "Nhân viên",
+      "contractor": "Nhà thầu",
+      "expat": "Người nước ngoài",
+      "removal": "Nghỉ việc"
+    },
+    "profile": {
+      "title": "Thông tin cá nhân",
+      "id": "ID Nhân viên",
+      "fullName": "Họ và tên",
+      "email": "Địa chỉ Email",
+      "phone": "Số di động",
+      "joinDate": "Ngày vào làm",
+      "dateOfBirth": "Ngày sinh",
+      "address": "Địa chỉ",
+      "profilePhoto": "Ảnh đại diện",
+      "selectYourGender": "Chọn giới tính",
+      "userInformation": "Thông tin người dùng",
+      "userInforDes": "Nhập các thông tin cần thiết dưới đây để đăng ký. Bạn có thể thay đổi nó bất cứ lúc nào bạn muốn."
+    },
+    "action": {
+      "create": {
+        "title": "Tạo nhân viên",
+        "personalDetail": "Thông tin cá nhân",
+        "companyDetail": "Thông tin công ty",
+        "bankAccountDetail": "Thông tin tài khoản ngân hàng",
+        "accountDetail": "Thông tin tài khoản"
+      },
+      "edit": {
+        "title": "Cập nhật nhân viên"
+      },
+      "search": "Tìm kiếm nhân viên"
+    },
+    "bankAccount": {
+      "bankName": "Tên ngân hàng",
+      "accountNumber": "Số tài khoản",
+      "accountHolderName": "Tên chủ tài khoản",
+      "bankIdentifierCode": "Mã số ngân hàng",
+      "branchIdentifierCode": "Mã số chi nhánh",
+      "branchLocation": "Địa chỉ chi nhánh",
+      "taxPayerId": "Mã số thuế"
+    }
+  },
+  "products": {
+    "title": {
+      "list": "Danh sách sản phẩm"
+    },
+    "model": {
+      "name": "Tên sản phẩm",
+      "code": "Mã sản phẩm",
+      "description": "Mô tả",
+      "unit": "Đơn vị",
+      "category": "Danh mục",
+      "isCommon": "Dùng chung",
+      "isManageStock": "Quản lý tồn kho",
+      "isManageLot": "Quản lý theo lô",
+      "isManageDate": "Quản lý ngày hết hạn",
+      "image": "Hình ảnh",
+      "status": "Trạng thái",
+      "amountOfUnit": "Số viên/ thùng",
+      "weightOfUnit": "Trọng lượng",
+      "minInventory": "Tồn tối thiểu",
+      "maxInventory": "Tồn tối đa",
+      "attributes": {
+        "color": "Màu",
+        "width": "Chiều rộng",
+        "length": "Chiều dài"
+      },
+      "files": "Các tệp tin"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Bạn có chắc chắn muốn xóa?",
+      "text": "Bạn có muốn xóa sản phẩm này?",
+      "button": {
+        "confirm": "Xác nhận",
+        "cancel": "Hủy"
+      },
+      "s1": "s1",
+      "s2": "s2",
+      "s3": "s3",
+      "barcode": "Mã vạch",
+      "referenceCode": "Mã tham chiếu",
+      "files": "Các tệp tin"
+    },
+    "action": {
+      "create": "Thêm sản phẩm",
+      "update": "Sửa sản phẩm",
+      "delete": "Xóa sản phẩm",
+      "search": "Tìm theo mã hoặc tên"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "message": {
+      "deleteSuccess": "Xóa sản phẩm thành công",
+      "createSuccess": "Tạo sản phẩm thành công",
+      "updateSuccess": "Cập nhật sản phẩm thành công"
+    },
+    "notice": {
+      "success": "Thành công",
+      "fail": "Thất bại"
+    }
+  },
+  "warehouse": {
+    "title": "Vị trí",
+    "model": {
+      "code": "Mã vị trí",
+      "name": "Tên vị trí",
+      "address": "Địa chỉ",
+      "status": "Trạng thái",
+      "searchName": "Tìm theo tên",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "yes": "Có",
+      "no": "Không",
+      "temp": "Kho tạm",
+      "text": "Có muốn xoá vị trí này?"
+    },
+    "action": {
+      "createWarehouse": "Tạo vị trí",
+      "updateSuccess": "Cập nhật thành công",
+      "updateVehicle": "Cập nhật vị trí",
+      "deleteSuccess": "Xoá vị trí thành công"
+    }
+  },
+  "overView": {
+    "title": {
+      "projectProgress": "Tiến Độ Dự Án",
+      "client": "Khách Hàng",
+      "task": "Nhiệm Vụ",
+      "projectDetail": "Chi Tiết Dự Án"
+    },
+    "model": {
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc"
+    }
+  },
+  "ship": {
+    "title": {
+      "list": "Danh sách tàu"
+    },
+    "model": {
+      "code": "Mã tàu",
+      "name": "Tàu",
+      "type": "Loại",
+      "status": "Trạng thái",
+      "phone": "Số điện thoại",
+      "searchName": "Tìm theo tên",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "imo": "IMO",
+      "grt": "Trọng tải",
+      "text": "Có muốn xoá tàu này?"
+    },
+    "action": {
+      "createShip": "Tạo tàu",
+      "updateSuccess": "Cập nhật thành công",
+      "updateShip": "Cập nhật tàu",
+      "deleteSuccess": "Xoá tàu thành công"
+    },
+    "tabs": {
+      "readyShip": "Phương Tiện"
+    }
+  },
+  "customer": {
+    "title": {
+      "list": "Quản lý khách hàng",
+      "dialog": "Tạo mới người dùng"
+    },
+    "action": {
+      "input": "Import file",
+      "create": "Tạo khách hàng",
+      "confirm": "Xác nhận",
+      "cancel": "Hủy"
+    },
+    "model": {
+      "id": "Mã Khách Hàng",
+      "name": "Tên Khách Hàng",
+      "cus": "Customer",
+      "supplier": "Supplier",
+      "trade": "Trade Name",
+      "address": "Address",
+      "email": "Email",
+      "vat": "Vat No"
+    },
+    "message": {
+      "title": "Bạn có muốn xóa người dùng?",
+      "text": "Bạn có muốn xóa người dùng:",
+      "deleteSuccess": "Xóa khách hàng thành công"
+    }
+  },
+  "todayPlan": {
+    "title": "Kế hoạch hôm nay",
+    "model": {
+      "location": "Vị trí",
+      "customer": "Khách hàng / Phương tiện",
+      "category": "Loại hàng",
+      "startTime": "Thời gian bắt đầu",
+      "endTimePlan": "Thời gian hoàn thành dự kiến",
+      "vehicle": "Thiết bị",
+      "status": "Trạng thái",
+      "hasChange": "Có thay đổi"
+    },
+    "action": {
+      "edit": "Chỉnh sửa kế hoạch"
+    }
+  },
+  "notification": {
+    "title": {
+      "notification": "Thông báo"
+    },
+    "model": {
+      "news": "Tin tức"
+    },
+    "action": {
+      "markReadAll": "Đọc tất cả"
+    }
+  },
+  "login": {
+    "title": "Chào mừng đến với PVOIL Lao",
+    "subTitle": "Liên tục tìm cách làm thông minh hơn, hiệu quả hơn và bền vững hơn.",
+    "forgotPassword": "Bạn đã quên mật khẩu?",
+    "passwordRetrieval": "Lấy lại mật khẩu?",
+    "model": {
+      "email": "Email",
+      "password": "Mật khẩu",
+      "remember": "Ghi nhớ"
+    },
+    "action": {
+      "login": "Đăng nhập",
+      "logout": "Đăng xuất"
+    },
+    "message": {
+      "error": "Sai tài khoản hoặc mật khẩu, hãy thử lại!"
+    }
+  },
+  "forgotPassword": {
+    "title": "Quên mật khẩu?",
+    "subTitle": "Vui lòng nhập địa chỉ email được liên kết với tài khoản của bạn và Chúng tôi sẽ gửi email cho bạn một liên kết để đặt lại mật khẩu của bạn.",
+    "model": {
+      "email": "Địa chỉ email",
+      "backToLogin": "Trở về đăng nhập"
+    },
+    "action": {
+      "send": "Quên mật khẩu"
+    }
+  },
+  "passwordReset": {
+    "title": "Đặt mật khẩu mới",
+    "subTitle": "Đang đặt lại mật khẩu",
+    "model": {
+      "email": "Email",
+      "newPassword": "Mật khẩu",
+      "newPasswordConfirmation": "Xác nhận mật khẩu"
+    },
+    "action": {
+      "set": "Đặt mật khẩu mới"
+    },
+    "message": {
+      "success": "Đặt lại mật khẩu thành công."
+    }
+  },
+  "task": {
+    "title": "Danh sách công việc"
+  },
+  "menu": {
+    "dashboard": "Trang Chủ",
+    "task": "Công việc",
+    "projects": "Dự án",
+    "location": "Vị Trí Tàu",
+    "vehicleModeration": "Điều Độ Phương Tiện",
+    "todayPlan": "Kế Hoạch Hôm Nay",
+    "planManagement": "Quản Lý Kế Hoạch",
+    "customer": "Khách Hàng",
+    "vehicle": "Thiết Bị",
+    "merchandise": "Hàng Hoá",
+    "solution": "Phương Án",
+    "notification": "Thông Báo",
+    "user": "Người Dùng",
+    "permission": "Phân Quyền",
+    "orderManagement": "Quản Lý Đơn Hàng",
+    "userManagement": "Quản lý người dùng",
+    "adminManagement": "Quản lý quản trị viên",
+    "serviceRequire": "Yêu Cầu Dịch Vụ",
+    "warehouse": "Vị Trí",
+    "ships": "Tàu",
+    "report": "Báo cáo",
+    "projectTemplateTask": "Công việc dự án mẫu",
+    "attendance": "Chấm công",
+    "purchase": "Đơn mua hàng",
+    "payroll": "Bảng lương",
+    "payrollConfig": "Cấu hình lương",
+    "payslip": "Phiếu lương",
+    "projectTemplate": "Mẫu dự án",
+    "templateMembers": "Mẫu thành viên dự án",
+    "projectTask": "Công việc",
+    "designation": "Chức danh",
+    "employee": "Nhân viên",
+    "departments": "Phòng ban",
+    "employeeRetaliation": "Truy lĩnh"
+  },
+  "mobileOrder": {
+    "label": {
+      "intendedWarehouse": "Kế Hoạch",
+      "intendTime": "Thời Gian Dự Kiến",
+      "phone": "SĐT",
+      "output": "Sản Lượng",
+      "commodity": "Hàng Hóa",
+      "note": "Ghi Chú"
+    }
+  },
+  "order": {
+    "title": "Quản lý kế hoạch và yêu cầu",
+    "model": {
+      "customerInformation": "Thông Tin Khách Hàng",
+      "shipInformation": "Thông Tin Phương Tiện",
+      "createOrder": "Tạo Yêu Cầu",
+      "nameCustomer": "Tên Khách Hàng",
+      "phone": "Số Điện Thoại",
+      "date": "Ngày Thực Hiện",
+      "nameShip": "Tên Tàu",
+      "quantity": "Số Lượng",
+      "output": "Sản lượng",
+      "intendTime": "Giờ Vào Dự Kiến",
+      "workInformation": "Thông Tin Công Việc",
+      "intendedWarehouse": "Kho Nhập Dự Kiến",
+      "sectors": "Loại Hàng",
+      "commodityName": "Tên Hàng",
+      "note": "Ghi Chú",
+      "address": "Địa Chỉ",
+      "file": "File",
+      "warning": "warning",
+      "notification": "Bạn có chắc chắn muốn xóa?",
+      "acceptOrder": "Bạn có muốn xóa kế hoạch",
+      "searchName": "Tìm theo tên khách hàng",
+      "created_at": "Ngày tạo",
+      "updateOrder": "Cập nhật yêu cầu",
+      "importOrder": "Tải file yêu cầu",
+      "selectFile": "Chọn tập tin",
+      "selectFileFormat": "Chọn tập tin (có định dạng .xlsx)",
+      "pleaseSelectFile": "Vui lòng chọn file có định dạng .xlsx",
+      "downloadTemplateFile": "Tải tập tin mẫu",
+      "templateFileExcel": "Tập tin mẫu xlsx",
+      "close": "Huỷ",
+      "accept": "Xác Nhận",
+      "noPlanYet": "Chưa Tạo Kế Hoạch",
+      "madeAPlan": "Đã Tạo Kế Hoạch",
+      "createSuccess": "Tạo kế hoạch thành công",
+      "deleteSuccess": "Xoá kế hoạch thành công",
+      "productCategory": "Loại hàng"
+    },
+    "label": {
+      "customer": "Khách Hàng",
+      "phone": "Số ĐT KH",
+      "sectors": "Loại Hàng",
+      "commodity": "Hàng Hoá",
+      "nameShip": "Tên Tàu",
+      "output": "Sản Lượng(Tấn)",
+      "outputShort": "SL (Tấn)",
+      "intendTime": "Thời Gian Dự Kiến",
+      "intendTimeShort": "TG Dự kiến",
+      "intendedWarehouse": "Kho Dự Kiến",
+      "note": "Ghi Chú",
+      "status": "Trạng Thái",
+      "createdAt": "Ngày Tạo"
+    },
+    "orderManagement": "Quản lý đơn hàng",
+    "vehicleManagement": "Quản Lý Phương Tiện",
+    "notice": {
+      "success": "Import thành công",
+      "invalid": "File excel không hợp lệ, đã tải xuống file đánh dấu lỗi!"
+    }
+  },
+  "fixedPage": {
+    "fullScreen": "Toàn màn hình",
+    "exitFullScreen": "Thoát màn hình"
+  },
+  "vehicles": {
+    "title": {
+      "list": "Quản lý phương tiện"
+    },
+    "label": {
+      "code": "Mã Phương Tiện",
+      "name": "Tên Phương Tiện",
+      "sortName": "Phân Loại Theo Tên",
+      "numberPlate": "Biển Số",
+      "weight": "Tải Trọng (Tấn)",
+      "width": "Kích Thước",
+      "status": "Trạng Thái",
+      "active": "Hoạt động",
+      "inactive": "Hỏng",
+      "createVehicle": "Tạo phương tiện",
+      "save": "Lưu",
+      "cancel": "Huỷ bỏ",
+      "create": "Tạo",
+      "updateVehicle": "Cập nhật phương tiện",
+      "createSuccess": "Tạo phương tiện thành công",
+      "updateSuccess": "Cập nhật phương tiện thành công",
+      "deleteSuccess": "Xoá phương tiện thành công",
+      "nameVehicles": "Tên phương tiện",
+      "text": "Bạn có muốn xoá phương tiện:"
+    },
+    "action": {
+      "import": "Nhập dữ liệu"
+    },
+    "tabs": {
+      "readyVehicle": "Thiết bị"
+    }
+  },
+  "customers": {
+    "title": "Khách hàng",
+    "model": {
+      "createCustomer": "Tạo khách hàng",
+      "customerInformation": "Thông tin khách hàng",
+      "customerManagement": "Quản lý khách hàng",
+      "name": "Tên Khách Hàng",
+      "code": "Mã Khách Hàng",
+      "customer": "Kh.Hàng",
+      "supplier": "NCC",
+      "email": "Email",
+      "phone": "Số Điện Thoại",
+      "tradeName": "Tên Thương Mại",
+      "address": "Địa Chỉ",
+      "vatNo": "VAT No",
+      "street": "Tên Đường",
+      "province": "Tỉnh/Thành Phố",
+      "district": "Quận/Huyện",
+      "ward": "Phường/Xã",
+      "updateSuccess": "Cập nhật khách hàng thành công"
+    },
+    "action": {
+      "create": "Tạo khách hàng",
+      "update": "Sửa khách hàng",
+      "search": "Tìm theo tên"
+    },
+    "message": {
+      "validateType": "Phải là khách hàng hoặc nhà cung cấp",
+      "validateAddress": "Vui lòng nhập đầy đủ địa chỉ"
+    }
+  },
+  "plans": {
+    "title": "Kế hoạch",
+    "model": {
+      "position": "Vị Trí",
+      "customer": "Khách Hàng / Phương Tiện",
+      "length": "Chiều Dài / Trọng Tải",
+      "curtain": "Mạn",
+      "time": "Giờ Ra - Vào",
+      "idVehicle": "Phương Tiện",
+      "title": "Quản lý kế hoạch & yêu cầu",
+      "createPlan": "Tạo kế hoạch",
+      "updatePlan": "Cập nhật kế hoạch",
+      "viewPlan": "Chi tiết kế hoạch",
+      "location": "Vị Trí",
+      "customerVehicle": "Khách Hàng / Phương Tiện",
+      "phone": "Số ĐT",
+      "width": "Chiều Dài",
+      "weight": "Trọng Tải",
+      "widthAndWeight": "Chiều Dài / Trọng Tải",
+      "plan": "Phương Án",
+      "sectors": "Loại Hàng",
+      "nameProduct": "Tên Hàng",
+      "romantic": "Mạn",
+      "trough": "Máng",
+      "clockInAndClockOut": "Giờ Ra - Vào",
+      "worker": "Công Nhân",
+      "troughNumber": "Số Máng",
+      "vehicle": "Phương Tiện",
+      "status": "Trạng Thái",
+      "output": "Sản Lượng(Tấn)",
+      "actualQuantity": "Lượng đã làm",
+      "quantity": "Số Lượng",
+      "change": "Thay Đổi",
+      "clockIn": "Giờ Vào",
+      "clockOut": "Giờ Ra",
+      "left": "Trái",
+      "right": "Phải",
+      "oneTrough": "1 MÁNG",
+      "twoTrough": "2 MÁNG",
+      "threeTrough": "3 MÁNG",
+      "fourTrough": "4 MÁNG",
+      "note": "Ghi Chú",
+      "date": "Ngày Thực Hiện",
+      "shipInformation": "Thông Tin Phương Tiện",
+      "jobInformation": "Thông Tin Công Việc",
+      "customerName": "Tên Khách Hàng",
+      "hasChange": "Có thay đổi",
+      "deleteSuccess": "Xoá kế hoạch thành công",
+      "positionWork": "Vị Trí Thực Hiện",
+      "planQuantity": "Sản Lượng",
+      "progress": "Tiến Độ",
+      "phoneNumber": "Số Điện Thoại",
+      "updateSuccess": "Cập nhật kế hoạch thành công",
+      "code": "Mã khách hàng",
+      "solution": "Phương án",
+      "customerInformation": "Thông tin khách hàng",
+      "romanticTrough": "Mạn - Máng",
+      "timeIn": "Giờ vào",
+      "timeOut": "Giờ ra",
+      "scaledOrNot": "Qua Cân / Không Qua Cân",
+      "startDate": "Ngày bắt đầu",
+      "endDatePlan": "Ngày kết thúc"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Bạn có chắc chắn muốn xóa?",
+      "text": "Bạn có muốn xóa kế hoạch này?",
+      "button": {
+        "confirm": "Xác nhận",
+        "cancel": "Hủy"
+      }
+    },
+    "tabs": {
+      "readyPlan": "Kế hoạch sẵn sàng",
+      "serviceRequire": "Yêu cầu dịch vụ ({_count_})"
+    },
+    "search": {
+      "label": "Tìm mã, tên tàu / mã, tên loại hàng",
+      "createdAt": "Tìm theo ngày tạo"
+    },
+    "action": {
+      "create": "Tạo kế hoạch",
+      "edit": "Chỉnh sửa kế hoạch",
+      "export": "Xuất kế hoạch thành công",
+      "activityLog": "Các hoạt động",
+      "updated": "đã cập nhật kế hoạch.",
+      "created": "đã tạo kế hoạch"
+    },
+    "status": {
+      "ready": "Sẵn sàng",
+      "inProgress": "Đang thực hiện",
+      "completed": "Đã hoàn thành",
+      "cancelled": "Đã hủy",
+      "onHold": "Hoãn",
+      "onTime": "Đúng giờ"
+    },
+    "message": {
+      "changed": "đã thay đổi",
+      "removed": "đã xoá",
+      "boardChanged": "thành mạn",
+      "clockInChanged": "giờ vào",
+      "clockOutChanged": "giờ ra",
+      "dateChanged": "ngày thực hiện",
+      "grtChanged": "trọng tải",
+      "lengthChanged": "chiều dài",
+      "noteChanged": "ghi chú",
+      "numOfWorkersChanged": "số lượng công nhân",
+      "planQuantityChanged": "sản lượng",
+      "productNameChanged": "loại hàng",
+      "shipNameChanged": "khách hàng/ phương tiện",
+      "supplierNameChanged": "công nhân",
+      "troughChanged": "số lượng máng thành",
+      "solutionChanged": "phương án",
+      "vehicleChanged": "phương tiện",
+      "warehouseChanged": "vị trí",
+      "boardRemoved": "máng thành",
+      "statusChanged": "trạng thái thành",
+      "to": "thành",
+      "inProgress": "đang thực hiện",
+      "ready": "sẵn sàng",
+      "completed": "đã hoàn thành",
+      "cancelled": "đã huỷ",
+      "onHold": "hoãn",
+      "onTime": "đúng giờ",
+      "scaled": "trạng thái cân là",
+      "overWeight": "Đã qua cân",
+      "notOverWeight": "Chưa qua cân"
+    }
+  },
+  "dashboard": {
+    "statistics": {
+      "totalOrder": "Tổng Đơn Hàng",
+      "totalPlan": "Tổng Sản Lượng(TEU)",
+      "totalShip": "Số Tàu Thông Quan",
+      "totalAttendance": "Thời Gian Làm Hàng",
+      "totalCustomer": "Tổng số khách hàng"
+    },
+    "supplierLateDeadline": {
+      "title": "Nhà Cung Cấp Trễ Deadline"
+    },
+    "bestCustomerOfMonth": {
+      "title": "Best Customer of Month",
+      "order": "Đơn hàng",
+      "mass": "Tấn"
+    },
+    "bestSalerOfMonth": {
+      "title": "Best Saler of Month",
+      "order": "Đơn hàng",
+      "mass": "Tấn"
+    },
+    "vehicleInNeedOfRepair": {
+      "title": "Phương tiện cần sửa chữa"
+    },
+    "newCustomerInMonth": {
+      "title": "Khách Hàng Mới Trong Tháng"
+    },
+    "model": {
+      "outputGrowth": "Tăng Trưởng Sản Lượng Theo Tháng (Tấn)",
+      "purchaseOderGrowth": "Tăng Trưởng Đơn Hàng Theo Tháng",
+      "late": "Trễ Giờ",
+      "onSchedule": "Đúng lịch",
+      "sPLY": "SPLY",
+      "fromLastMonth": "from Last Month"
+    },
+    "rateOfGoodsByMonth": {
+      "title": "Tỉ Trọng Hàng Hoá Theo Tháng",
+      "list": "Quản lý phương tiện"
+    },
+    "label": {
+      "code": "Mã phương tiện",
+      "name": "Tên",
+      "sortName": "Phân loại theo tên",
+      "numberPlate": "Biển số",
+      "weight": "Tải trọng (Tấn)",
+      "width": "Kích thước",
+      "status": "Trạng thái",
+      "active": "Hoạt động",
+      "inactive": "Hỏng",
+      "createVehicle": "Tạo phương tiện",
+      "save": "Lưu",
+      "cancel": "Huỷ bỏ",
+      "create": "Tạo",
+      "updateVehicle": "Cập nhật phương tiện",
+      "createSuccess": "Tạo phương tiện thành công",
+      "updateSuccess": "Cập nhật phương tiện thành công",
+      "deleteSuccess": "Xoá phương tiện thành công",
+      "inportFile": "INPORT FILE"
+    }
+  },
+  "solutions": {
+    "title": "Quản lý phương án",
+    "model": {
+      "index": "Số thứ tự",
+      "code": "Mã phương án",
+      "name": "Tên phương án",
+      "len": "Số lượng",
+      "note": "Ghi chú",
+      "create": "Ngày tạo"
+    },
+    "message": {
+      "title": "Bạn có muốn xóa",
+      "text": "Bạn có muốn xóa: "
+    },
+    "action": {
+      "create": "Tạo phương án",
+      "update": "Cập nhật phương án",
+      "search": "Tìm theo mã hoặc tên"
+    }
+  },
+  "projectTemplate": {
+    "title": "Mẫu dự án",
+    "model": {
+      "name": "Tên dự án",
+      "member": "Thành viên",
+      "task": "Công việc",
+      "category": "Loại dự án",
+      "action": "",
+      "add": "Thêm",
+      "write": "Nhập tên dự án",
+      "logs": "Cho phép ghi nhật ký thời gian thủ công",
+      "summary": "Bản tóm tắt mẫu dự án",
+      "note": "Ghi Chú",
+      "view": "Chi tiết dự án",
+      "yes": "Có",
+      "no": "Không"
+    },
+    "message": {
+      "success": "Cập nhật dự án thành công",
+      "delete": "Xóa dự án thành công"
+    },
+    "action": {
+      "create": "Tạo dự án",
+      "update": "Chỉnh sửa dự án",
+      "search": "Nhập để tìm kiếm"
+    },
+    "deleteItem": {
+      "title": "Bạn có chắc chắn muốn xóa?",
+      "text": "Bạn có muốn xóa dự án này?",
+      "button": {
+        "confirm": "Xác nhận",
+        "cancel": "Hủy"
+      }
+    }
+  },
+  "projects": {
+    "title": "Danh sách Dự án",
+    "model": {
+      "addProject": "Thêm dự án",
+      "id": "Id",
+      "code": "Mã dự án",
+      "name": "Tên dự án",
+      "member": "Thành viên",
+      "startDate": "Ngày Bắt Đầu",
+      "deadline": "Thời hạn",
+      "client": "Khách hàng",
+      "progress": "Tiến Độ",
+      "status": "Trạng Thái",
+      "shortCode": "Mã dự án",
+      "shortCodeLabel": "Mỗi dự án có một mã duy nhất",
+      "projectNameLabel": "Viết tên dự án",
+      "selectDate": "Chọn ngày",
+      "deadlinelabel": "Không có thời hạn dự án",
+      "category": "Loại dự án",
+      "add": "Thêm",
+      "summary": "Tóm tắt dự án",
+      "note": "Ghi Chú",
+      "public": "Tạo dự án công khai",
+      "addProjectMember": "Thêm thành viên vào dự án",
+      "projectDetails": "Chi tiết dự án",
+      "ortherDetails": "Chi tiết khác",
+      "addFile": "Tải file lên",
+      "logs": "Cho phép ghi nhật ký thời gian thủ công",
+      "view": "Xem dự án",
+      "assignTo": "Giao cho",
+      "action": ""
+    },
+    "status": {
+      "inProgress": "Đang thực hiện",
+      "notStart": "Chưa bắt đầu",
+      "onHold": "Hoãn",
+      "cancelled": "Đã hủy",
+      "finished": "Đã hoàn thành"
+    },
+    "tab": {
+      "overview": "Tổng quan",
+      "members": "Thành viên"
+    },
+    "action": {
+      "create": "Tạo dự án",
+      "delete": {
+        "title": "Bạn có chắc chắn muốn xóa?",
+        "text": "Có muốn xoá dự án này?",
+        "button": {
+          "confirm": "Xác nhận",
+          "cancel": "Hủy"
+        }
+      },
+      "update": "Chỉnh sửa dự án"
+    },
+    "message": {
+      "delete": "Xóa dự án thành công",
+      "success": "Chỉnh sửa dự án thành công"
+    }
+  },
+  "dispatchCenter": {
+    "title": "Trung tâm điều độ phương tiện",
+    "model": {
+      "vehicleCode": "Mã phương tiện",
+      "vehicleName": "Tên phương tiện",
+      "numberPlate": "Biển số",
+      "status": "Trạng thái",
+      "gate": "Cổng",
+      "timeIn": "Thời gian vào"
+    },
+    "action": {
+      "editPlan": "Chỉnh sửa kế hoạch"
+    }
+  },
+  "roles": {
+    "title": "Phân Quyền",
+    "model": {
+      "display_name": "Tên",
+      "description": "Mô tả",
+      "createRoles": "Tạo Mới Vai Trò",
+      "module": "Mô-đun",
+      "action": "Hành động",
+      "permissions": "Danh sách quyền",
+      "createSuccess": "Tạo vai trò thành công",
+      "updateSuccess": "Cập nhật vai trò thành công",
+      "updateRoles": "Cập nhật vai trò",
+      "deleteAccept": "Bạn có chắc chắn muốn xóa?",
+      "closed": "Huỷ",
+      "accept": "Xác nhận",
+      "deleteText": "Bạn chắc chắn muốn xóa vai trò {_role_}?"
+    }
+  },
+  "categories": {
+    "title": "DANH MỤC",
+    "model": {
+      "name": "Tên Danh mục",
+      "action": "Hành Động",
+      "label": "Tên danh mục..."
+    },
+    "action": {
+      "add": "Thêm danh mục",
+      "delete": "Xóa Danh Mục",
+      "deleteItem": "Bạn có chắc muốn xóa danh mục này!",
+      "save": "Lưu",
+      "update": "Cập nhật danh mục thành công",
+      "createItem": "Tạo"
+    }
+  },
+  "reports": {
+    "title": "Báo cáo",
+    "model": {
+      "plan": "Kế hoạch",
+      "date": "Ngày",
+      "month": "Tháng",
+      "year": "Năm",
+      "overDuePlans": "Số kế hoạch trễ",
+      "totalPlans": "Số kế hoạch",
+      "customer": "Khách hàng",
+      "quantity": "Sản Lượng",
+      "progress": "Tiến Độ",
+      "vehicle": "Phương Tiện",
+      "newVehicles": "Phương tiện đăng ký mới",
+      "compareVehicle": "So sánh lượng phương tiện cùng kỳ",
+      "totalReport": "Tổng hợp",
+      "chartTotalProgress": "Biểu đồ tổng tiến độ",
+      "gh": "Ghe",
+      "nd": "Nội địa",
+      "nn": "Nước ngoài",
+      "sl": "Salan",
+      "statistical": "Thống kê",
+      "serviceIsArranged": "Dịch vụ đăng ký được bố trí",
+      "serviceIsNotArranged": "Dịch vụ đăng ký không được bố trí",
+      "arrangementPlan": "Kế hoạch bố trí",
+      "trueLatePlan": "Kế hoạch đúng/trễ",
+      "true": "Đúng",
+      "late": "Trễ",
+      "effective": "Hiệu quả",
+      "workEffective": "Báo cáo hiệu quả công việc",
+      "percent": "Phần Trăm",
+      "result": "Kết quả"
+    }
+  },
+  "designations": {
+    "title": "Chức danh",
+    "model": {
+      "name": "Tên chức danh",
+      "description": "Mô tả",
+      "departmentName": "Tên phòng ban",
+      "updateSuccess": "Cập nhật chức danh thành công"
+    },
+    "action": {
+      "create": "Thêm chức danh",
+      "delete": "Xóa chức danh",
+      "update": "Cập nhật chức danh",
+      "deleteItem": "Bạn có chắc muốn xóa chức danh "
+    },
+    "message": {
+      "deleteItems": "Bạn có chắc xóa những chức danh này !"
+    }
+  },
+  "tableReports": {
+    "title": "BẢNG BÁO CÁO TỔNG HỢP",
+    "model": {
+      "customerName": "Tên Khách Hàng",
+      "categoryName": "Phân Loại",
+      "productName": "Tên Hàng",
+      "shipName": "Phương Tiện",
+      "planQuantity": "Số Lượng Dự Kiến",
+      "startDatePlan": "Ngày Làm Dự Kiến",
+      "startDate": "Ngày Bắt Đầu",
+      "finishDate": "Ngày Kết Thúc",
+      "actualQuantity": "Số Lượng Thực Tế",
+      "difference": "Chênh Lệch",
+      "percent": "%"
+    }
+  },
+  "members": {
+    "title": "DANH SÁCH CÁC THÀNH VIÊN",
+    "model": {
+      "name": "Tên thành viên",
+      "hourlyRate": "Tỉ lệ hàng giờ",
+      "role": "Vai trò",
+      "action": "Hành động"
+    },
+    "action": {
+      "add": "Thêm thành viên",
+      "delete": "Xóa thành viên"
+    }
+  },
+  "chartsQuantity": {
+    "model": {
+      "agricultural": "Nông sản",
+      "iron": "Sắt Thành Phẩm",
+      "scapIron": "Sắt Phế",
+      "fertilizer": "Phân bón",
+      "other": "Khác",
+      "titleChartPie": "SẢN LƯỢNG",
+      "titleChart": "SO SÁNH SẢN LƯỢNG"
+    }
+  },
+  "chartAggregateProgress": {
+    "title": "TIẾN ĐỘ TỔNG HỢP",
+    "model": {
+      "progress": "Tiến Độ"
+    }
+  },
+  "chartsDetailProgress": {
+    "title": "TIẾN ĐỘ CHI TIẾT MỖI 2H"
+  },
+  "chartProgressQuantity": {
+    "title": "TIẾN ĐỘ TỔNG HỢP THEO SẢN LƯỢNG",
+    "model": {
+      "quantityReality": "Sản Lượng Thực Tế",
+      "quantityExpected": "Sản Lượng Dự Kiến"
+    }
+  },
+  "projectTemplateTask": {
+    "title": {
+      "list": "Danh sách công việc dự án mẫu"
+    },
+    "model": {
+      "heading": "Tiêu đề",
+      "category": "Danh mục công việc",
+      "assignTo": "Phân công",
+      "description": "Mô tả",
+      "priority": "Ưu tiên",
+      "projectTemplate": "Dự án mẫu",
+      "projectTemplateTask": "Công việc dự án mẫu",
+      "low": "Thấp",
+      "medium": "Trung bình",
+      "high": "Cao"
+    },
+    "action": {
+      "create": "Thêm công việc dự án mẫu",
+      "update": "Sửa công việc dự án mẫu",
+      "delete": "Xóa công việc dự án mẫu",
+      "search": "Tìm theo tiêu đề",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận"
+    }
+  },
+  "projectTask": {
+    "title": {
+      "list": "Công việc",
+      "detail": "Chi tiết công việc"
+    },
+    "model": {
+      "taskShortCode": "Code",
+      "heading": "Tên công việc",
+      "startDate": "Từ ngày",
+      "dueDate": "Đến ngày",
+      "completedOn": "Hoàn thành",
+      "assignTo": "Phân công",
+      "status": "Trạng thái",
+      "incomplete": "Chưa hoàn thành",
+      "toDo": "Chưa bắt đầu",
+      "doing": "Đang thực hiện",
+      "completed": "Hoàn thành",
+      "priority": "Độ ưu tiên",
+      "taskCategory": "Loại công việc",
+      "description": "Mô tả",
+      "high": "Cao",
+      "medium": "Trung bình",
+      "low": "Thấp",
+      "comment": "Bình luận",
+      "addComment": "Thêm bình luận...",
+      "activities": "Hoạt động",
+      "project": "Dự án"
+    },
+    "detail": {
+      "name": "đã đổi thành ",
+      "employee": "đã giao công việc cho ",
+      "description": "đã đổi mô tả thành",
+      "startDate": "đã đổi ngày bắt đầu thành ",
+      "dueDate": "đã đổi ngày hết hạn thành ",
+      "status": "đã đổi trạng thái thành ",
+      "progress": "đã đổi tiến độ thành ",
+      "priority": "đã đổi mức ưu tiên thành ",
+      "you": "bạn",
+      "taskType": "đã đổi loại công việc thành",
+      "created": "đã tạo công việc.",
+      "estimate": "đã đổi ước lượng thành.",
+      "removeEmployee": "chưa được chỉ định",
+      "removeDescription": "đã xóa mô tả",
+      "removeDueDate": "đã xóa ngày hết hạn",
+      "removeStatus": "đã xóa trạng thái",
+      "removeProgress": "đã xóa tiến độ",
+      "removePriority": "đã xóa mức ưu tiên",
+      "removeEstimate": "đã xóa ước lượng",
+      "removeTaskType": "đã xóa loại công việc",
+      "removeStartDate": "đã xóa ngày bắt đầu"
+    },
+    "action": {
+      "create": "Thêm công việc",
+      "update": "Sửa công việc",
+      "delete": "Xóa công việc",
+      "search": "Tìm theo tên công việc",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận",
+      "makeComplete": "Đánh dấu đã hoàn thành"
+    },
+    "message": {
+      "deleteSuccess": "Xóa công việc thành công",
+      "createSuccess": "Tạo công việc thành công",
+      "updateSuccess": "Cập nhật công việc thành công",
+      "success": "Thành công",
+      "fail": "Thất bại"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Bạn có chắc chắn muốn xóa?",
+      "text": "Bạn có muốn xóa công việc này?",
+      "button": {
+        "confirm": "Xác nhận",
+        "cancel": "Hủy"
+      }
+    }
+  },
+  "taskCategories": {
+    "title": "Danh mục công việc",
+    "model": {
+      "name": "Tên Danh mục",
+      "action": "Hành Động",
+      "label": "Nhập công việc..."
+    },
+    "action": {
+      "create": "Thêm danh mục công việc",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận",
+      "add": "ADD",
+      "delete": "Xóa Nhiệm Vụ",
+      "deleteItem": "Bạn có chắc muốn xóa nhiệm vụ này!",
+      "save": "Lưu",
+      "update": "Cập nhật nhiệm vụ thành công",
+      "createItem": "Tạo"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Bạn có chắc chắn muốn xóa?",
+      "text": "Bạn có muốn xóa danh mục công việc này?",
+      "button": {
+        "confirm": "Xác nhận",
+        "cancel": "Hủy"
+      }
+    }
+  },
+  "payrollConfig": {
+    "title": "Danh sách lương nhân viên",
+    "model": {
+      "employeeCode": "Mã NV",
+      "employeeName": "Tên nhân viên",
+      "basicSalary": "Lương cơ bản",
+      "mainAllowance": "Phụ cấp chính",
+      "totalIncome": "Tổng thu nhập",
+      "socialInsuranceSalary": "Mức đóng BHXH",
+      "familyAllowance": "Giảm trừ bản thân",
+      "dependantAmount": "Giảm trừ phụ thuộc",
+      "current": "Hiện tại",
+      "differentSalary": "Các khoản khác",
+      "bankAccount": "Số tài khoản",
+      "personalTaxIncome": "Thuế TNCN"
+    },
+    "action": {
+      "addSalary": "Tạo lương nhân viên",
+      "updateSalary": "Cập nhật lương nhân viên",
+      "salaryHistory": "Lịch sử lương nhân viên"
+    }
+  },
+  "payslip": {
+    "title": "Phiếu lương",
+    "list": "Danh sách phiếu lương nhân viên",
+    "model": {
+      "employeeCode": "Mã NV",
+      "employeeName": "Tên nhân viên",
+      "WD": "N/C",
+      "basicSalary": "Lương cơ bản",
+      "mainAllowance": "Phụ cấp chính",
+      "totalIncome": "Tổng thu nhập",
+      "overTimeWD": "Ngày công tính tăng ca",
+      "realTotalSalary": "Tổng lương thực tế",
+      "realSalary": "Lương thực tế",
+      "businessFee": "Công tác phí",
+      "workingDay": "Ngày công",
+      "salaryDay": "Ngày lương",
+      "overTimeNormal": "Tăng ca thường (Số giờ)",
+      "overTimeSunday": "Tăng ca chủ nhật (Số giờ)",
+      "salaryOverTime": "Lương tăng ca",
+      "salaryBusiness": "Lương công tác (B)",
+      "totalSalary": "Tổng lương + OT + Phụ cấp",
+      "advance": "Tạm ứng (D)",
+      "socialInsuranceSalary": "Mức đóng BHXH",
+      "payableByCompany": "Các khoản công ty phải trả",
+      "deductions": "Các khoản giảm trừ",
+      "unionDues": "KPCĐ",
+      "payInsurance": "Đóng BHXH (E)",
+      "personalTaxIncome": "Thuế TNCN",
+      "familyAllowance": "Giảm trừ bản thân",
+      "dependantAmount": "Giảm trừ người phụ thuộc",
+      "taxableIncome": "TNTT",
+      "payPersonalTaxIncome": "Đóng thuế TNCN (F)",
+      "netSalary": "Tổng thực lãnh K = (C-D-E-F+G-H)",
+      "from": "Từ",
+      "to": "Đến",
+      "status": "Trạng thái",
+      "paidOn": "Ngày trả lương",
+      "earningExtra": "Khoản thu nhập thêm (G)",
+      "deductionExtra": "Khoảng khấu trừ thêm (H)",
+      "amount": "Số tiền",
+      "bankAccount": "Số tài khoản",
+      "housingAllowance": "Phụ cấp nhà ở",
+      "newPositionAllowance": "Phụ cấp chức vụ mới",
+      "socialSecurity": "BHXH",
+      "incentMoney": "Tiền thưởng",
+      "salaryAfterSecurity": "Lương sau BHXH",
+      "otMoney": "Tiền tăng ca",
+      "amountOT": "Số giờ tăng ca",
+      "retainedTax": "Thuế TNCN đã khấu trừ",
+      "totalMoney": "Tổng tiền",
+      "terminationAllowance": "Phụ cấp nghỉ việc",
+      "netPay": "Tổng thực lãnh",
+      "retirementFundProvision": "Dự phòng quỹ hưu trí",
+      "socialSecurityFundByCompany": "Quỹ BHXH do công ty đóng 6.00%"
+    },
+    "status": {
+      "generated": "Đã tạo",
+      "paid": "Đã thanh toán"
+    },
+    "businessFee": {
+      "count": "số lần",
+      "total": "Tổng"
+    },
+    "message": {
+      "payTitle": "Thanh toán lương nhân viên",
+      "payText": "Bạn có chắc muốn thanh toán cho những nhân viên này không?",
+      "sendMailTitle": "Gửi email cho nhân viên",
+      "sendMailText": "Bạn có chắc muốn gửi email không?",
+      "notPay": "Chưa thanh toán"
+    },
+    "notice": {
+      "generateSuccess": "Tạo phiếu lương thành công",
+      "paySuccess": "Thanh toán lương thành công",
+      "updateSuccess": "Cập nhật phiếu lương thành công",
+      "sendEmailSuccess": "Gửi email thành công"
+    },
+    "action": {
+      "generate": "Tạo phiếu lương",
+      "sendMail": "Gửi mail",
+      "payment": "Thanh toán lương",
+      "updatePayslip": "Cập nhật phiếu lương",
+      "add": "Thêm"
+    }
+  },
+  "departments": {
+    "title": {
+      "list": "Danh sách phòng ban",
+      "add": "Thêm phòng ban",
+      "update": "Cập nhật phòng ban"
+    },
+    "model": {
+      "name": "Tên phòng ban",
+      "manager": "Trưởng phòng",
+      "status": "Trạng thái",
+      "createAt": "Ngày tạo",
+      "departmentInformation": "Thông tin phòng ban",
+      "parent": "Phòng ban cha",
+      "exportSalaryReport": "Báo cáo Bảng lương",
+      "exportRemunerationReport": "Báo cáo Nhân lực",
+      "exportSalaryReportNew": "Báo cáo Bảng lương v2",
+      "viewChart": "Xem biểu đồ"
+    },
+    "action": {
+      "create": "Thêm phòng ban",
+      "update": "Cập nhật phòng ban",
+      "delete": "Xóa phòng ban",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "export": "Xuất báo cáo thành công"
+    },
+    "message": {
+      "deleteTitle": "Xóa phòng ban",
+      "deleteText": "Bạn có chắc chắn muốn xóa phòng ban ",
+      "deleteSuccess": "Xóa phòng ban thành công"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "label": {
+      "status": "Trạng thái"
+    }
+  },
+  "Modern": "Modern",
+  "eCommerce": "eCommerce",
+  "Analytical": "Analytical",
+  "Classic": "Classic",
+  "Demographical": "Demographical",
+  "Minimal": "Minimal",
+  "Contact": "Contact",
+  "Blog": "Blog",
+  "Posts": "Posts",
+  "Detail": "Detail",
+  "E-Commerce": "E-Commerce",
+  "Shop": "Shop",
+  "List": "List",
+  "Checkout": "Checkout",
+  "Chats": "Chats",
+  "User Profile": "Users Profile",
+  "Profile": "Profile",
+  "Followers": "Followers",
+  "Friends": "Friends",
+  "Gallery": "Gallery",
+  "Email": "Email",
+  "Pricing": "Pricing",
+  "Account Setting": "Account Setting",
+  "FAQ": "FAQ",
+  "Widget": "Widget",
+  "Landing Page": "Landing Page",
+  "Form Elements": "Form Elements",
+  "Autocomplete": "Autocomplete",
+  "Combobox": "Combobox",
+  "Button": "Button",
+  "Checkbox": "Checkbox",
+  "Custom Inputs": "Custom Inputs",
+  "File Inputs": "File Inputs",
+  "Radio": "Radio",
+  "Date Time": "Date Time",
+  "Select": "Select",
+  "Slider": "Slider",
+  "Switch": "Switch",
+  "Form Layout": "Form Layout",
+  "Form Horizontal": "Form Horizontal",
+  "Form Vertical": "Form Vertical",
+  "Form Custom": "Form Custom",
+  "Form Validation": "Form Validation",
+  "Editor": "Editor",
+  "Basic Table": "Basic Table",
+  "Dark Table": "Dark Table",
+  "Density Table": "Density Table",
+  "Fixed Header Table": "Fixed Header Table",
+  "Height Table": "Height Table",
+  "Ui Components": "Ui Components",
+  "Alert": "Alert",
+  "Accordion": "Accordion",
+  "Avatar": "Avatar",
+  "Chip": "Chip",
+  "Dialog": "Dialog",
+  "Menus": "Menus",
+  "Rating": "Rating",
+  "Tabs": "Tabs",
+  "Tooltip": "Tooltip",
+  "Typography": "Typography",
+  "Line": "Line",
+  "Gredient": "Gredient",
+  "Area": "Area",
+  "Candlestick": "Candlestick",
+  "Column": "Column",
+  "Doughnut & Pie": "Doughnut & Pie",
+  "Radialbar & Radar": "Radialbar & Radar",
+  "Login": "Login",
+  "Side Login": "Side Login",
+  "Boxed Login": "Boxed Login",
+  "Register": "Register",
+  "Side Register": "Side Register",
+  "Boxed Register": "Boxed Register",
+  "Forgot Password": "Forgot Password",
+  "Side Forgot Password": "Side Forgot Password",
+  "Boxed Forgot Password": "Boxed Forgot Password",
+  "Two Steps": "Two Steps",
+  "Side Two Steps": "Side Two Steps",
+  "Boxed Two Steps": "Boxed Two Steps",
+  "Error": "Error",
+  "Maintenance": "Maintenance",
+  "Menu Level": "Menu level",
+  "Level 1": "Level 1",
+  "Level 2": "Level 2",
+  "Level 3": "Level 3",
+  "Disabled": "Disabled",
+  "Sub Caption": "Sub Caption",
+  "Outlined": "Outlined",
+  "External Link": "External Link",
+  "Editable Table": "Editable Table",
+  "Cards": "Cards",
+  "Banners": "Banners",
+  "Charts": "Charts",
+  "Material": "Material",
+  "Tabler": "Tabler",
+  "Dashboard": "Dashboard",
+  "Apps": "Apps",
+  "Pages": "Pages",
+  "Forms": "Forms",
+  "Tables": "Tables",
+  "Icons": "Icons"
+}

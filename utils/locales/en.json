@@ -1,0 +1,1772 @@
+{
+  "common": {
+    "model": {
+      "noData": "No data",
+      "created_at": "Created at",
+      "action": "",
+      "name": "Name",
+      "error": "The given data failed to pass validation."
+    },
+    "action": {
+      "view": "View",
+      "edit": "Edit",
+      "update": "Update",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "reset": "Reset",
+      "filter": "Filter",
+      "additionFilter": "Advanced filter",
+      "apply": "Apply",
+      "create": "Create",
+      "export": "Export file",
+      "addSalary": "Add salary",
+      "updateSalary": "Update salary",
+      "historySalary": "Salary history",
+      "confirm": "Confirm",
+      "sendMail": "Send email",
+      "uploadFile": "Upload file",
+      "close": "Close",
+      "download": "Download"
+    },
+    "filter": {
+      "title": "Filter",
+      "exit": "Exit",
+      "dateFrom": "From date",
+      "dateTo": "To date",
+      "rangeDate": "From date ~ To date",
+      "searchByName": "Search by name",
+      "month": "Month",
+      "date": "Date",
+      "year": "Year"
+    },
+    "input": {
+      "more": "more"
+    },
+    "message": {
+      "createSuccess": "Successfully created",
+      "updateSuccess": "Successfully updated",
+      "deleteSuccess": "Successfully deleted",
+      "loadingStatus": "Changing status...",
+      "success": "Successfully",
+      "noData": "No data"
+    }
+  },
+  "upload": {
+    "model": {
+      "allowed": "Allowed {_types_}",
+      "maxSizeOf": "Maximum size is {_size_} bytes"
+    },
+    "action": {
+      "dropOrSelectFile": "Drop or Select File",
+      "dropHereOrClick": "Drop file here or click",
+      "browse": "Browse",
+      "thoroughYourMachine": "through your machine",
+      "removeAll": "Remove All",
+      "uploadFiles": "Upload Files",
+      "updatePhoto": "Update Photo",
+      "uploadPhoto": "Upload Photo"
+    },
+    "notice": {
+      "error": "File format not supported or an error occurred. Please choose a different file!"
+    }
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "model": {
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "newPasswordConfirmation": "Confirm New Password"
+    }
+  },
+  "projectMembers": {
+    "title": "MEMBER LIST",
+    "model": {
+      "name": "Member Name",
+      "add": "Add Member"
+    },
+    "action": {
+      "create": "ADD MEMBER",
+      "save": "SAVE"
+    },
+    "message": {
+      "title": "Delete Member",
+      "text": "Are you sure you want to delete this member?",
+      "deleteSuccess": "Member successfully deleted"
+    }
+  },
+  "users": {
+    "title": {
+      "list": "User List"
+    },
+    "model": {
+      "fullName": "Full Name",
+      "lastName": "Last Name",
+      "firstName": "First Name",
+      "DOB": "Date of Birth",
+      "phone": "Phone Number",
+      "joiningDate": "Joining Date",
+      "email": "Email",
+      "password": "Password",
+      "passwordConfirm": "Confirm Password",
+      "type": "Employee Type",
+      "role": "Role",
+      "gender": "Gender",
+      "address": "Address",
+      "name": "Employee Name",
+      "user": "User",
+      "status": "Status",
+      "passwordNotMatch": "Passwords do not match"
+    },
+    "action": {
+      "create": "Create User"
+    }
+  },
+  "attendance": {
+    "title": "Attendance",
+    "model": {
+      "name": "Employee Name",
+      "totalHoursInMonth": "Total hours/month",
+      "note": "Note",
+      "check": "Present",
+      "unCheck": "Absent",
+      "employee": "Employee",
+      "clock_in": "Clock In",
+      "date": "Date",
+      "clock_out": "Clock Out",
+      "total": "Total",
+      "image": "Attendance Image",
+      "viewAttendance": "View Attendance Details",
+      "workTime": "Work Time"
+    },
+    "action": {
+      "createAttendance": "Create New Attendance",
+      "updateAttendance": "Update Attendance"
+    }
+  },
+  "purchase": {
+    "title": "Purchase Order",
+    "model": {
+      "code": "Purchase Order Code",
+      "unitBusinessCode": "Business Unit Code",
+      "suppliers": "Supplier Name",
+      "purchaseDate": "Purchase Date",
+      "accountingDate": "Accounting Date",
+      "totalPayment": "Total Payment",
+      "status": "Status",
+      "paymentStatus": "Payment Status",
+      "create": "Create Purchase Order"
+    }
+  },
+  "stock": {
+    "title": "Inventory",
+    "model": {
+      "code": "Product Code",
+      "name": "Product Name",
+      "unit": "Unit",
+      "warehouse": "Warehouse",
+      "lotNumber": "Lot Number",
+      "refNumber": "Reference Number",
+      "before": "Opening Stock",
+      "quantity": "Quantity",
+      "value": "Value",
+      "increase": "Increase",
+      "decrease": "Decrease",
+      "after": "Closing Stock",
+      "total": "Total"
+    }
+  },
+  "employees": {
+    "title": "List of Employees",
+    "model": {
+      "employee_code": "Employee Code",
+      "lastName": "Last Name",
+      "firstName": "First Name",
+      "DOB": "Date of Birth",
+      "phone": "Phone Number",
+      "joiningDate": "Joining Date",
+      "email": "Email",
+      "password": "Password",
+      "passwordConfirmation": "Confirm Password",
+      "type": "Employee Type",
+      "role": "Role",
+      "gender": "Gender",
+      "address": "Address",
+      "name": "Employee Name",
+      "user": "User",
+      "userType": "User Type",
+      "passwordNotMatch": "Password does not match",
+      "createAt": "Creation Date",
+      "branch": "Company",
+      "department": "Department",
+      "designation": "Position",
+      "dateToCompany": "Date to Company",
+      "dateToJobGroup": "Date to Job Group",
+      "education": "Education",
+      "allowance": "Allowance",
+      "dateToJob": "Date to Job",
+      "dateOfEngagement": "Date of Engagement",
+      "indicator": "Indicator",
+      "age": "Age",
+      "dateOfBirth": "Date of Birth",
+      "job": "Job",
+      "jg": "JG",
+      "isInsurance": "Social welfare",
+      "service": "Service",
+      "normalRetirementDate": "Normal Retirement Date",
+      "employeeCode": "Employee Code",
+      "salary": "Salary",
+      "current": "(current)",
+      "personalDetails": "Personal Details",
+      "roles": "Roles",
+      "positionType": "Position Type",
+      "manager": "Manager",
+      "employee": "Employee",
+      "totalEmployee": "Total Employee",
+      "totalManager": "Total Managers",
+      "totalContract": "Total Contracts",
+      "totalStaff": "Total Staffs",
+      "totalRemoval": "Total Removals",
+      "totalEmployeeFluctuate": "Total employees fluctuate by month",
+      "totalEmployeeSalaryFluctuate": "Total salary employees fluctuate by month",
+      "employeeType": "Employee Type",
+      "housingAllowance": "Housing Allowance",
+      "positionAllowance": "Position Allowance",
+      "male": "Male",
+      "female": "Female",
+      "lastDay": "Last Day",
+      "remarks": "Remarks"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "others": "Others"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "type": {
+      "staff": "Staff",
+      "contractor": "Contractor",
+      "expat": "Expatriate",
+      "removal": "Removal"
+    },
+    "profile": {
+      "tabs": {
+        "personalDetails": "Personal Details",
+        "contractDetails": "Contract Details",
+        "transfer": "Transfer",
+        "allowance": "Allowance",
+        "terminationAllowance": "Termination Allowance",
+        "document": "Document"
+      },
+      "title": "Employee Profile",
+      "id": "Employee ID",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Mobile Number",
+      "joinDate": "Joining Date",
+      "dateOfBirth": "Date of Birth",
+      "address": "Address",
+      "profilePhoto": "Profile Photo",
+      "selectYourGender": "Select Gender",
+      "userInformation": "User Information",
+      "userInforDes": "Enter the necessary information below to register. You can change it anytime you want."
+    },
+    "action": {
+      "create": {
+        "title": "Create Employee",
+        "personalDetail": "Personal Information",
+        "companyDetail": "Company Information",
+        "bankAccountDetail": "Bank Account Information",
+        "accountDetail": "Account Information"
+      },
+      "edit": {
+        "title": "Update Employee"
+      },
+      "search": "Search Employee",
+      "exportRecord": "Export Record",
+      "exportSalary": "Export Salary"
+    },
+    "bankAccount": {
+      "bankName": "Bank Name",
+      "accountNumber": "Account Number",
+      "accountHolderName": "Account Holder Name",
+      "bankIdentifierCode": "Bank Identifier Code",
+      "branchIdentifierCode": "Company Identifier Code",
+      "branchLocation": "Company Location",
+      "taxPayerId": "Tax Payer ID"
+    },
+    "message": {
+      "deleteTitle": "Delete Employee",
+      "deleteText": "Are you sure you want to delete this {name}?"
+    }
+  },
+  "contracts": {
+    "title": "Contracts",
+    "model": {
+      "type": "Contract Type",
+      "number": "Contract Number",
+      "contractFile": "Contract File",
+      "contractFrom": "Contract Start Date",
+      "contractTo": "Contract End Date",
+      "file": "File",
+      "date": "Date",
+      "dateMin": "End date must be greater than start date",
+      "image": "Image"
+    },
+    "type": {
+      "fullTime": "Full Time",
+      "partTime": "Part Time"
+    },
+    "action": {
+      "create": "Create Contract",
+      "update": "Update Contract",
+      "cancel": "Cancel Contract",
+      "confirm": "Confirm Contract"
+    },
+    "deleteItem": {
+      "title": "Delete File Contract",
+      "text": "Are you sure you want to delete this file contract?"
+    }
+  },
+  "retaliations": {
+    "title": "Retaliations",
+    "model": {
+      "employee": "Employee Name",
+      "applySalaryDate": "Apply Salary Date",
+      "incrementDate": "Increment Date",
+      "previousSalary": "Previous Salary",
+      "newSalary": "New Salary",
+      "amount": "Amount",
+      "months": "Months",
+      "amountOfMoney": "Amount of Money",
+      "dateMin": "Increment Date must be greater than Apply Salary Date"
+    },
+    "filter": {
+      "employee": "Search Employee"
+    },
+    "action": {
+      "create": "Create Retaliation",
+      "update": "Update Retaliation",
+      "cancel": "Cancel Retaliation",
+      "confirm": "Confirm Retaliation",
+      "export": "Export Retaliation",
+      "exportSuccess": "Export Retaliation successfully"
+    },
+    "deleteItem": {
+      "title": "Delete File Retaliation",
+      "text": "Are you sure you want to delete this file retaliation?"
+    }
+  },
+  "transfers": {
+    "title": "List Of Transfer",
+    "model": {
+      "employee": "Employee",
+      "branch": "Company",
+      "fromBranch": "From Company",
+      "toBranch": "To Company",
+      "department": "Department",
+      "fromDepartment": "From Department",
+      "toDepartment": "To Department",
+      "designation": "Position",
+      "fromDesignation": "From Position",
+      "toDesignation": "To Position",
+      "transferDate": "Transfer Date",
+      "noticeDate": "Notice Date",
+      "description": "Description",
+      "transferFrom": "Transfer From",
+      "transferTo": "Transfer To",
+      "job": "Job",
+      "newSalary": "New Salary",
+      "newPositionAllowance": "New Position Allowance"
+    },
+    "action": {
+      "create": "Create Transfer",
+      "update": "Update Transfer"
+    }
+  },
+  "awards": {
+    "title": "Bonus",
+    "list": "List of Bonus",
+    "model": {
+      "title": "Title",
+      "awardType": "Bonus Rate",
+      "halfMonth": "Half Month",
+      "fullMonth": "Month",
+      "awardPeriod": "Bonus Period",
+      "employeeName": "Employee Name",
+      "amount": "Amount",
+      "department": "Department",
+      "employee": "Employee",
+      "isTax": "Tax",
+      "contractType": "Contract Type",
+      "employeeContract": "Employee Contract",
+      "fullTime": "Full Time",
+      "partTime": "Part Time",
+      "type": "Bonus Type",
+      "bonus": "Bonus",
+      "allowance": "Allowance",
+      "birthday": "Birthday"
+    },
+    "action": {
+      "create": "Create Bonus",
+      "update": "Update Award",
+      "delete": "Delete Award",
+      "export": "Export Bonus"
+    },
+    "message": {
+      "award": {
+        "deleteTitle": "Delete Bonus",
+        "deleteItem": "Are you sure you want to delete this bonus?",
+        "deleteItems": "Are you sure you want to delete these bonuss?",
+        "invalidEmployee": "You have not selected an employee to create bonus"
+      },
+      "employeeAward": {
+        "deleteTitle": "Delete Bonus",
+        "deleteItem": "Are you sure you want to delete this bonus?",
+        "deleteItems": "Are you sure you want to delete these bonuss?"
+      },
+      "export": {
+        "success": "Export successful",
+        "fail": "Export failed"
+      }
+    }
+  },
+  "products": {
+    "title": {
+      "list": "Product List"
+    },
+    "model": {
+      "name": "Product Name",
+      "code": "Product Code",
+      "description": "Description",
+      "unit": "Unit",
+      "category": "Category",
+      "isCommon": "Commonly Used",
+      "isManageStock": "Manage Stock",
+      "isManageLot": "Manage by Lot",
+      "isManageDate": "Manage by Expiry Date",
+      "image": "Image",
+      "status": "Status",
+      "amountOfUnit": "Units per Box",
+      "weightOfUnit": "Weight per Unit",
+      "minInventory": "Minimum Inventory",
+      "maxInventory": "Maximum Inventory",
+      "attributes": {
+        "color": "Color",
+        "width": "Width",
+        "length": "Length"
+      },
+      "files": "Files"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Are you sure you want to delete?",
+      "text": "Do you want to delete this product?",
+      "button": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      },
+      "s1": "s1",
+      "s2": "s2",
+      "s3": "s3",
+      "barcode": "Barcode",
+      "referenceCode": "Reference Code",
+      "files": "Files"
+    },
+    "action": {
+      "create": "Add Product",
+      "update": "Edit Product",
+      "delete": "Delete Product",
+      "search": "Search by Code or Name"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "message": {
+      "deleteSuccess": "Product deleted successfully",
+      "createSuccess": "Product created successfully",
+      "updateSuccess": "Product updated successfully"
+    },
+    "notice": {
+      "success": "Success",
+      "fail": "Failure"
+    }
+  },
+  "warehouse": {
+    "title": "Warehouse Location",
+    "model": {
+      "code": "Location Code",
+      "name": "Location Name",
+      "address": "Address",
+      "status": "Status",
+      "searchName": "Search by Name",
+      "active": "Active",
+      "inactive": "Inactive",
+      "yes": "Yes",
+      "no": "No",
+      "temp": "Temporary Warehouse",
+      "text": "Do you want to delete this location?"
+    },
+    "action": {
+      "createWarehouse": "Add Location",
+      "updateSuccess": "Update successful",
+      "updateVehicle": "Update Location",
+      "deleteSuccess": "Delete Location successful"
+    }
+  },
+  "overView": {
+    "title": {
+      "projectProgress": "Project Progress",
+      "client": "Client",
+      "task": "Task",
+      "projectDetail": "Project Details"
+    },
+    "model": {
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    }
+  },
+  "ship": {
+    "title": {
+      "list": "Ship List"
+    },
+    "model": {
+      "code": "Ship Code",
+      "name": "Ship Name",
+      "type": "Type",
+      "status": "Status",
+      "phone": "Phone Number",
+      "searchName": "Search by Name",
+      "active": "Active",
+      "inactive": "Inactive",
+      "imo": "IMO",
+      "grt": "Gross Register Tonnage",
+      "text": "Do you want to delete this ship?"
+    },
+    "action": {
+      "createShip": "Create Ship",
+      "updateSuccess": "Update successful",
+      "updateShip": "Update Ship",
+      "deleteSuccess": "Delete Ship successful"
+    },
+    "tabs": {
+      "readyShip": "Ready Ship"
+    }
+  },
+  "customer": {
+    "title": {
+      "list": "Customer Management",
+      "dialog": "Create New User"
+    },
+    "action": {
+      "input": "Import File",
+      "create": "Create Customer",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "model": {
+      "id": "Customer ID",
+      "name": "Customer Name",
+      "cus": "Customer",
+      "supplier": "Supplier",
+      "trade": "Trade Name",
+      "address": "Address",
+      "email": "Email",
+      "vat": "VAT No"
+    },
+    "message": {
+      "title": "Do you want to delete the user?",
+      "text": "Do you want to delete the user:",
+      "deleteSuccess": "Delete customer successful"
+    }
+  },
+  "todayPlan": {
+    "title": "Today's Plan",
+    "model": {
+      "location": "Location",
+      "customer": "Customer / Vehicle",
+      "category": "Category",
+      "startTime": "Start Time",
+      "endTimePlan": "Planned End Time",
+      "vehicle": "Vehicle",
+      "status": "Status",
+      "hasChange": "Has Change"
+    },
+    "action": {
+      "edit": "Edit Plan"
+    }
+  },
+  "notification": {
+    "title": {
+      "notification": "Notifications"
+    },
+    "model": {
+      "news": "News"
+    },
+    "action": {
+      "markReadAll": "Mark All as Read"
+    }
+  },
+  "login": {
+    "title": "Welcome to PVOIL Lao",
+    "subTitle": "Continuously seeking to be smarter, more efficient, and sustainable.",
+    "forgotPassword": "Forgot your password?",
+    "passwordRetrieval": "Password Retrieval?",
+    "model": {
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember Me"
+    },
+    "action": {
+      "login": "Login",
+      "logout": "Logout"
+    },
+    "message": {
+      "error": "Incorrect account or password, please try again!"
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot Password?",
+    "subTitle": "Please enter the email address associated with your account and we will email you a link to reset your password.",
+    "model": {
+      "email": "Email Address",
+      "backToLogin": "Back to Login"
+    },
+    "action": {
+      "send": "Forgot Password"
+    }
+  },
+  "passwordReset": {
+    "title": "Reset Password",
+    "subTitle": "Resetting Password",
+    "model": {
+      "email": "Email",
+      "newPassword": "Password",
+      "newPasswordConfirmation": "Confirm Password"
+    },
+    "action": {
+      "set": "Set New Password"
+    },
+    "message": {
+      "success": "Password reset successful."
+    }
+  },
+  "task": {
+    "title": "Task List"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "task": "Task",
+    "projects": "Projects",
+    "location": "Ship Location",
+    "vehicleModeration": "Vehicle Moderation",
+    "todayPlan": "Today's Plan",
+    "planManagement": "Plan Management",
+    "customer": "Customer",
+    "employee": "Employee",
+    "vehicle": "Vehicle",
+    "merchandise": "Merchandise",
+    "solution": "Solution",
+    "notification": "Notification",
+    "user": "User",
+    "permission": "Permission",
+    "orderManagement": "Order Management",
+    "userManagement": "User Management",
+    "adminManagement": "Admin Management",
+    "serviceRequire": "Service Request",
+    "warehouse": "Warehouse",
+    "ships": "Ships",
+    "report": "Report",
+    "projectTemplateTask": "Project Template Task",
+    "attendance": "Attendance",
+    "purchase": "Purchase Order",
+    "payroll": "Payroll",
+    "payrollConfig": "Salary",
+    "payslip": "Payslip",
+    "projectTemplate": "Project Template",
+    "templateMembers": "Template Members",
+    "documents": "Document",
+    "departments": "Department",
+    "designation": "Position",
+    "contract": "Contract",
+    "employeeTransfer": "Transfer",
+    "termination": "Termination",
+    "employeeAward": "Bonus",
+    "overtime": "Overtime",
+    "employeeRetaliation": "Retaliation"
+  },
+  "mobileOrder": {
+    "label": {
+      "intendedWarehouse": "Plan",
+      "intendTime": "Planned Time",
+      "phone": "Phone",
+      "output": "Output",
+      "commodity": "Commodity",
+      "note": "Note"
+    }
+  },
+  "order": {
+    "title": "Order and Request Management",
+    "model": {
+      "customerInformation": "Customer Information",
+      "shipInformation": "Ship Information",
+      "createOrder": "Create Order",
+      "nameCustomer": "Customer Name",
+      "phone": "Phone Number",
+      "date": "Execution Date",
+      "nameShip": "Ship Name",
+      "quantity": "Quantity",
+      "output": "Output",
+      "intendTime": "Planned Entry Time",
+      "workInformation": "Work Information",
+      "intendedWarehouse": "Intended Warehouse",
+      "sectors": "Sectors",
+      "commodityName": "Commodity Name",
+      "note": "Note",
+      "address": "Address",
+      "file": "File",
+      "warning": "Warning",
+      "notification": "Are you sure you want to delete?",
+      "acceptOrder": "Do you want to delete the plan",
+      "searchName": "Search by customer name",
+      "created_at": "Creation Date",
+      "updateOrder": "Update Request",
+      "importOrder": "Import request file",
+      "selectFile": "Select file",
+      "selectFileFormat": "Select file (.xlsx format)",
+      "pleaseSelectFile": "Please select a file in .xlsx format",
+      "downloadTemplateFile": "Download template file",
+      "templateFileExcel": "Template file (xlsx)",
+      "close": "Cancel",
+      "accept": "Accept",
+      "noPlanYet": "No Plan Created Yet",
+      "madeAPlan": "Plan Created",
+      "createSuccess": "Plan created successfully",
+      "deleteSuccess": "Delete plan successful",
+      "productCategory": "Product Category"
+    },
+    "label": {
+      "customer": "Customer",
+      "phone": "Customer Phone",
+      "sectors": "Sectors",
+      "commodity": "Commodity",
+      "nameShip": "Ship Name",
+      "output": "Output (Tons)",
+      "outputShort": "Output (Tons)",
+      "intendTime": "Planned Time",
+      "intendTimeShort": "Planned Time",
+      "intendedWarehouse": "Intended Warehouse",
+      "note": "Note",
+      "status": "Status",
+      "createdAt": "Creation Date"
+    },
+    "orderManagement": "Order Management",
+    "vehicleManagement": "Vehicle Management",
+    "notice": {
+      "success": "Import successful",
+      "invalid": "Invalid excel file, error-marked file downloaded!"
+    }
+  },
+  "fixedPage": {
+    "fullScreen": "Full Screen",
+    "exitFullScreen": "Exit Full Screen"
+  },
+  "vehicles": {
+    "title": {
+      "list": "Vehicle Management"
+    },
+    "label": {
+      "code": "Vehicle Code",
+      "name": "Vehicle Name",
+      "sortName": "Sort by Name",
+      "numberPlate": "Number Plate",
+      "weight": "Weight (Tons)",
+      "width": "Dimensions",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createVehicle": "Create Vehicle",
+      "save": "Save",
+      "cancel": "Cancel",
+      "create": "Create",
+      "updateVehicle": "Update Vehicle",
+      "createSuccess": "Vehicle created successfully",
+      "updateSuccess": "Vehicle updated successfully",
+      "deleteSuccess": "Vehicle deleted successfully",
+      "nameVehicles": "Vehicle Name",
+      "text": "Are you sure you want to delete the vehicle:"
+    },
+    "action": {
+      "import": "Import Data"
+    },
+    "tabs": {
+      "readyVehicle": "Ready Vehicles"
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "model": {
+      "createCustomer": "Create Customer",
+      "customerInformation": "Customer Information",
+      "customerManagement": "Customer Management",
+      "name": "Customer Name",
+      "code": "Customer Code",
+      "customer": "Customer",
+      "supplier": "Supplier",
+      "email": "Email",
+      "phone": "Phone Number",
+      "tradeName": "Trade Name",
+      "address": "Address",
+      "vatNo": "VAT No",
+      "street": "Street Name",
+      "province": "Province/City",
+      "district": "District",
+      "ward": "Ward/Commune",
+      "updateSuccess": "Customer updated successfully"
+    },
+    "action": {
+      "create": "Create Customer",
+      "update": "Edit Customer",
+      "search": "Search by Name"
+    },
+    "message": {
+      "validateType": "Must be a customer or supplier",
+      "validateAddress": "Please enter a complete address"
+    }
+  },
+  "plans": {
+    "title": "Plans",
+    "model": {
+      "position": "Position",
+      "customer": "Customer / Vehicle",
+      "length": "Length / Weight",
+      "curtain": "Curtain",
+      "time": "Time Out - In",
+      "idVehicle": "Vehicle",
+      "title": "Plan & Request Management",
+      "createPlan": "Create Plan",
+      "updatePlan": "Update Plan",
+      "viewPlan": "Plan Details",
+      "location": "Location",
+      "customerVehicle": "Customer / Vehicle",
+      "phone": "Phone Number",
+      "width": "Width",
+      "weight": "Weight",
+      "widthAndWeight": "Width / Weight",
+      "plan": "Solution",
+      "sectors": "Product Category",
+      "nameProduct": "Product Name",
+      "romantic": "Romantic",
+      "trough": "Trough",
+      "clockInAndClockOut": "Clock In - Out Time",
+      "worker": "Worker",
+      "troughNumber": "Trough Number",
+      "vehicle": "Vehicle",
+      "status": "Status",
+      "output": "Output (Tons)",
+      "actualQuantity": "Actual Quantity",
+      "quantity": "Quantity",
+      "change": "Change",
+      "clockIn": "Clock In",
+      "clockOut": "Clock Out",
+      "left": "Left",
+      "right": "Right",
+      "oneTrough": "1 TROUGH",
+      "twoTrough": "2 TROUGH",
+      "threeTrough": "3 TROUGH",
+      "fourTrough": "4 TROUGH",
+      "note": "Note",
+      "date": "Execution Date",
+      "shipInformation": "Ship Information",
+      "jobInformation": "Job Information",
+      "customerName": "Customer Name",
+      "hasChange": "Has Change",
+      "deleteSuccess": "Delete plan successful",
+      "positionWork": "Position of Execution",
+      "planQuantity": "Output",
+      "progress": "Progress",
+      "phoneNumber": "Phone Number",
+      "updateSuccess": "Plan updated successfully",
+      "code": "Customer Code",
+      "solution": "Solution",
+      "customerInformation": "Customer Information",
+      "romanticTrough": "Romantic - Trough",
+      "timeIn": "Time In",
+      "timeOut": "Time Out",
+      "scaledOrNot": "Weighed / Not Weighed",
+      "startDate": "Start Date",
+      "endDatePlan": "End Date Plan"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Are you sure you want to delete?",
+      "text": "Do you want to delete this plan?",
+      "button": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      }
+    },
+    "tabs": {
+      "readyPlan": "Ready Plans",
+      "serviceRequire": "Service Requests ({_count_})"
+    },
+    "search": {
+      "label": "Search by ship code, ship name / product category code, product category name",
+      "createdAt": "Search by creation date"
+    },
+    "action": {
+      "create": "Create Plan",
+      "edit": "Edit Plan",
+      "export": "Export successful plans",
+      "activityLog": "Activity Log",
+      "updated": "has updated the plan.",
+      "created": "has created the plan"
+    },
+    "status": {
+      "ready": "Ready",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "onHold": "On Hold",
+      "onTime": "On Time"
+    },
+    "message": {
+      "changed": "has changed",
+      "removed": "has deleted",
+      "boardChanged": "changed board to",
+      "clockInChanged": "changed clock in time to",
+      "clockOutChanged": "changed clock out time to",
+      "dateChanged": "changed execution date to",
+      "grtChanged": "changed weight to",
+      "lengthChanged": "changed length to",
+      "noteChanged": "changed note to",
+      "numOfWorkersChanged": "changed number of workers to",
+      "planQuantityChanged": "changed output to",
+      "productNameChanged": "changed product category to",
+      "shipNameChanged": "changed customer / vehicle to",
+      "supplierNameChanged": "changed worker to",
+      "troughChanged": "changed trough number to",
+      "solutionChanged": "changed solution to",
+      "vehicleChanged": "changed vehicle to",
+      "warehouseChanged": "changed position to",
+      "boardRemoved": "removed board",
+      "statusChanged": "changed status to",
+      "to": "to",
+      "inProgress": "in progress",
+      "ready": "ready",
+      "completed": "completed",
+      "cancelled": "cancelled",
+      "onHold": "on hold",
+      "onTime": "on time",
+      "scaled": "weighing status is",
+      "overWeight": "Overweight",
+      "notOverWeight": "Not Overweight"
+    }
+  },
+  "dashboard": {
+    "statistics": {
+      "totalOrder": "Total Orders",
+      "totalPlan": "Total Output (TEU)",
+      "totalShip": "Total Declared Ships",
+      "totalAttendance": "Total Working Time",
+      "totalCustomer": "Total Customers"
+    },
+    "supplierLateDeadline": {
+      "title": "Suppliers with Late Deadline"
+    },
+    "bestCustomerOfMonth": {
+      "title": "Best Customer of the Month",
+      "order": "Orders",
+      "mass": "Tons"
+    },
+    "bestSalerOfMonth": {
+      "title": "Best Salesperson of the Month",
+      "order": "Orders",
+      "mass": "Tons"
+    },
+    "vehicleInNeedOfRepair": {
+      "title": "Vehicles in Need of Repair"
+    },
+    "newCustomerInMonth": {
+      "title": "New Customers in the Month"
+    },
+    "model": {
+      "outputGrowth": "Output Growth per Month (Tons)",
+      "purchaseOderGrowth": "Order Growth per Month",
+      "late": "Late",
+      "onSchedule": "On Schedule",
+      "sPLY": "SPLY",
+      "fromLastMonth": "from Last Month"
+    },
+    "rateOfGoodsByMonth": {
+      "title": "Proportion of Goods by Month",
+      "list": "Product Category Management"
+    },
+    "label": {
+      "code": "Vehicle Code",
+      "name": "Name",
+      "sortName": "Sort by Name",
+      "numberPlate": "Number Plate",
+      "weight": "Weight (Tons)",
+      "width": "Dimensions",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createVehicle": "Create Vehicle",
+      "save": "Save",
+      "cancel": "Cancel",
+      "create": "Create",
+      "updateVehicle": "Update Vehicle",
+      "createSuccess": "Vehicle created successfully",
+      "updateSuccess": "Vehicle updated successfully",
+      "deleteSuccess": "Vehicle deleted successfully",
+      "inportFile": "IMPORT FILE"
+    }
+  },
+  "solutions": {
+    "title": "Solution Management",
+    "model": {
+      "index": "Serial Number",
+      "code": "Solution Code",
+      "name": "Solution Name",
+      "len": "Quantity",
+      "note": "Note",
+      "create": "Creation Date"
+    },
+    "message": {
+      "title": "Do you want to delete",
+      "text": "Do you want to delete: "
+    },
+    "action": {
+      "create": "Create Solution",
+      "update": "Update Solution",
+      "search": "Search by code or name"
+    }
+  },
+  "projectTemplate": {
+    "title": "Project Template",
+    "model": {
+      "name": "Project Name",
+      "member": "Member",
+      "task": "Task",
+      "category": "Project Category",
+      "action": "",
+      "add": "Add",
+      "write": "Enter project name",
+      "logs": "Allow manual time logging",
+      "summary": "Project Template Summary",
+      "note": "Note",
+      "view": "Project Details",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "message": {
+      "success": "Project updated successfully",
+      "delete": "Project deleted successfully"
+    },
+    "action": {
+      "create": "Create Project",
+      "update": "Edit Project",
+      "search": "Enter to search"
+    },
+    "deleteItem": {
+      "title": "Are you sure you want to delete?",
+      "text": "Do you want to delete this project?",
+      "button": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "projects": {
+    "title": "Project List",
+    "model": {
+      "addProject": "Add Project",
+      "id": "Id",
+      "code": "Project Code",
+      "name": "Project Name",
+      "member": "Member",
+      "startDate": "Start Date",
+      "deadline": "Deadline",
+      "client": "Client",
+      "progress": "Progress",
+      "status": "Status",
+      "shortCode": "Project Code",
+      "shortCodeLabel": "Each project has a unique code",
+      "projectNameLabel": "Write project name",
+      "selectDate": "Select a date",
+      "deadlinelabel": "No project deadline",
+      "category": "Project Category",
+      "add": "Add",
+      "summary": "Project Summary",
+      "note": "Note",
+      "public": "Make project public",
+      "addProjectMember": "Add member to project",
+      "projectDetails": "Project Details",
+      "ortherDetails": "Other Details",
+      "addFile": "Upload File",
+      "logs": "Allow manual time logging",
+      "view": "View Project",
+      "assignTo": "Assign to",
+      "action": ""
+    },
+    "status": {
+      "inProgress": "In Progress",
+      "notStart": "Not Started",
+      "onHold": "On Hold",
+      "cancelled": "Cancelled",
+      "finished": "Finished"
+    },
+    "tab": {
+      "overview": "Overview",
+      "members": "Members"
+    },
+    "action": {
+      "create": "Create Project",
+      "delete": {
+        "title": "Are you sure you want to delete?",
+        "text": "Do you want to delete this project?",
+        "button": {
+          "confirm": "Confirm",
+          "cancel": "Cancel"
+        }
+      },
+      "update": "Edit Project"
+    },
+    "message": {
+      "delete": "Project deleted successfully",
+      "success": "Project edited successfully"
+    }
+  },
+  "documents": {
+    "title": "Document List",
+    "model": {
+      "id": "Id",
+      "category": "Category",
+      "name": "Document Name",
+      "mimeType": "Mime type",
+      "size": "Size",
+      "content": "Content",
+      "addFile": "Add File",
+      "createdAt": "Creation Date",
+      "documentNumber": "Document Number",
+      "issuedDate": "Issued Date",
+      "type": "Type",
+      "from": "From",
+      "to": "To"
+    },
+    "action": {
+      "search": "Search by name",
+      "create": "Create Document",
+      "delete": {
+        "title": "Are you sure you want to delete?",
+        "text": "Do you want to delete this document?",
+        "button": {
+          "confirm": "Confirm",
+          "cancel": "Cancel"
+        }
+      },
+      "update": "Edit Document"
+    },
+    "message": {
+      "delete": "Document deleted successfully",
+      "success": "Document edited successfully"
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "model": {
+      "display_name": "Name",
+      "description": "Description",
+      "createRoles": "Create New Role",
+      "module": "Module",
+      "action": "Action",
+      "permissions": "Permission List",
+      "createSuccess": "Role created successfully",
+      "updateSuccess": "Role updated successfully",
+      "updateRoles": "Update Role",
+      "deleteAccept": "Are you sure you want to delete?",
+      "closed": "Cancel",
+      "accept": "Confirm",
+      "deleteText": "Are you sure you want to delete role {_role_}?"
+    }
+  },
+  "categories": {
+    "title": "Categories",
+    "model": {
+      "name": "Category Name",
+      "action": "Action",
+      "label": "Category name..."
+    },
+    "action": {
+      "add": "Add Category",
+      "delete": "Delete Category",
+      "deleteItem": "Are you sure you want to delete this category!",
+      "save": "Save",
+      "update": "Category updated successfully",
+      "createItem": "Create"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "model": {
+      "plan": "Plan",
+      "date": "Date",
+      "month": "Month",
+      "year": "Year",
+      "overDuePlans": "Number of overdue plans",
+      "totalPlans": "Total number of plans",
+      "customer": "Customer",
+      "quantity": "Quantity",
+      "progress": "Progress",
+      "vehicle": "Vehicle",
+      "newVehicles": "Newly Registered Vehicles",
+      "compareVehicle": "Compare vehicle quantity with the same period",
+      "totalReport": "Total Summary",
+      "chartTotalProgress": "Total Progress Chart",
+      "gh": "GH",
+      "nd": "Domestic",
+      "nn": "International",
+      "sl": "Salan",
+      "statistical": "Statistics",
+      "serviceIsArranged": "Registered services are arranged",
+      "serviceIsNotArranged": "Registered services are not arranged",
+      "arrangementPlan": "Arrangement Plan",
+      "trueLatePlan": "True/Late Plans",
+      "true": "True",
+      "late": "Late",
+      "effective": "Effective",
+      "workEffective": "Work Effectiveness Report",
+      "percent": "Percentage",
+      "result": "Result"
+    }
+  },
+  "tableReports": {
+    "title": "SUMMARY REPORT TABLE",
+    "model": {
+      "customerName": "Customer Name",
+      "categoryName": "Category",
+      "productName": "Product Name",
+      "shipName": "Vehicle",
+      "planQuantity": "Planned Quantity",
+      "startDatePlan": "Planned Start Date",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "actualQuantity": "Actual Quantity",
+      "difference": "Difference",
+      "percent": "%"
+    }
+  },
+  "members": {
+    "title": "MEMBER LIST",
+    "model": {
+      "name": "Member Name",
+      "hourlyRate": "Hourly Rate",
+      "role": "Role",
+      "action": "Action"
+    },
+    "action": {
+      "add": "Add Member",
+      "delete": "Delete Member"
+    }
+  },
+  "chartsQuantity": {
+    "model": {
+      "agricultural": "Agricultural",
+      "iron": "Finished Iron",
+      "scapIron": "Scrap Iron",
+      "fertilizer": "Fertilizer",
+      "other": "Other",
+      "titleChartPie": "QUANTITY",
+      "titleChart": "QUANTITY COMPARISON"
+    }
+  },
+  "chartAggregateProgress": {
+    "title": "AGGREGATE PROGRESS CHART",
+    "model": {
+      "progress": "Progress"
+    }
+  },
+  "chartsDetailProgress": {
+    "title": "DETAILED PROGRESS CHART EVERY 2 HOURS"
+  },
+  "chartProgressQuantity": {
+    "title": "AGGREGATE PROGRESS BY QUANTITY",
+    "model": {
+      "quantityReality": "Actual Quantity",
+      "quantityExpected": "Planned Quantity"
+    }
+  },
+  "projectTemplateTask": {
+    "title": {
+      "list": "Project Template Task List"
+    },
+    "model": {
+      "heading": "Heading",
+      "category": "Task Category",
+      "assignTo": "Assign To",
+      "description": "Description",
+      "priority": "Priority",
+      "projectTemplate": "Project Template",
+      "projectTemplateTask": "Project Template Task",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "action": {
+      "create": "Add Project Template Task",
+      "update": "Edit Project Template Task",
+      "delete": "Delete Project Template Task",
+      "search": "Search by Heading",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "projectTask": {
+    "title": {
+      "list": "Tasks",
+      "detail": "Task Details"
+    },
+    "model": {
+      "taskShortCode": "Code",
+      "heading": "Task Name",
+      "startDate": "Start Date",
+      "dueDate": "Due Date",
+      "completedOn": "Completed On",
+      "assignTo": "Assign To",
+      "status": "Status",
+      "incomplete": "Incomplete",
+      "toDo": "To Do",
+      "doing": "In Progress",
+      "completed": "Completed",
+      "priority": "Priority",
+      "taskCategory": "Task Category",
+      "description": "Description",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "comment": "Comment",
+      "addComment": "Add Comment...",
+      "activities": "Activities",
+      "project": "Project"
+    },
+    "detail": {
+      "name": "changed to ",
+      "employee": "assigned the task to ",
+      "description": "changed the description to",
+      "startDate": "changed the start date to ",
+      "dueDate": "changed the due date to ",
+      "status": "changed the status to ",
+      "progress": "changed the progress to ",
+      "priority": "changed the priority to ",
+      "you": "you",
+      "taskType": "changed the task type to",
+      "created": "created the task.",
+      "estimate": "changed the estimate to.",
+      "removeEmployee": "not assigned",
+      "removeDescription": "deleted the description",
+      "removeDueDate": "deleted the due date",
+      "removeStatus": "deleted the status",
+      "removeProgress": "deleted the progress",
+      "removePriority": "deleted the priority",
+      "removeEstimate": "deleted the estimate",
+      "removeTaskType": "deleted the task type",
+      "removeStartDate": "deleted the start date"
+    },
+    "action": {
+      "create": "Add Task",
+      "update": "Edit Task",
+      "delete": "Delete Task",
+      "search": "Search by Task Name",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "makeComplete": "Mark as Complete"
+    },
+    "message": {
+      "deleteSuccess": "Task deleted successfully",
+      "createSuccess": "Task created successfully",
+      "updateSuccess": "Task updated successfully",
+      "success": "Success",
+      "fail": "Failure"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Are you sure you want to delete?",
+      "text": "Do you want to delete this task?",
+      "button": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "taskCategories": {
+    "title": "Task Categories",
+    "model": {
+      "name": "Category Name",
+      "action": "Action",
+      "label": "Enter task..."
+    },
+    "action": {
+      "create": "Add Task Category",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "add": "ADD",
+      "delete": "Delete Task",
+      "deleteItem": "Are you sure you want to delete this task?"
+    },
+    "deleteItem": {
+      "level": "warning",
+      "title": "Are you sure you want to delete?",
+      "text": "Do you want to delete this task category?",
+      "button": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "payrollConfig": {
+    "title": "Employee Salary List",
+    "model": {
+      "currencyCode": "Currency Code",
+      "employeeCode": "Employee Code",
+      "employeeName": "Employee Name",
+      "basicSalary": "Basic Salary",
+      "mainAllowance": "Main Allowance",
+      "totalIncome": "Total Income",
+      "socialInsuranceSalary": "Social Insurance Contribution",
+      "socialSecurity": "Social Security",
+      "familyAllowance": "Family Allowance",
+      "dependantAmount": "Dependant Amount",
+      "current": "Current",
+      "differentSalary": "Other Salaries",
+      "bankAccount": "Bank Account Number",
+      "personalTaxIncome": "Personal Income Tax"
+    },
+    "action": {
+      "addSalary": "Add Employee Salary",
+      "updateSalary": "Update Employee Salary",
+      "salaryHistory": "Employee Salary History"
+    }
+  },
+  "payslip": {
+    "title": "Payroll",
+    "list": "Employee Payroll List",
+    "model": {
+      "employeeCode": "Employee Code",
+      "employeeName": "Employee Name",
+      "WD": "Work Days",
+      "basicSalary": "Basic Salary",
+      "mainAllowance": "Main Allowance",
+      "totalIncome": "Total Income",
+      "overTimeWD": "Overtime Work Days",
+      "realTotalSalary": "Real Total Salary",
+      "realSalary": "Real Salary",
+      "businessFee": "Business Fee",
+      "workingDay": "Working Day",
+      "salaryDay": "Salary Day",
+      "overTimeNormal": "Normal Overtime (Hours)",
+      "overTimeSunday": "Sunday Overtime (Hours)",
+      "salaryOverTime": "Overtime Salary",
+      "salaryBusiness": "Business Salary",
+      "totalSalary": "Total Salary",
+      "advance": "Advance",
+      "socialInsuranceSalary": "Social Insurance Contribution",
+      "payableByCompany": "Payable by Company",
+      "deductions": "Deductions",
+      "unionDues": "Union Dues",
+      "payInsurance": "Pay Social Insurance",
+      "personalTaxIncome": "Personal Income Tax",
+      "familyAllowance": "Family Allowance",
+      "dependantAmount": "Dependant Amount",
+      "taxableIncome": "Taxable Income",
+      "payPersonalTaxIncome": "Pay Personal Income Tax",
+      "netSalary": "Net Salary K = (C-D-E-F+G-H)",
+      "from": "From",
+      "to": "To",
+      "status": "Status",
+      "paidOn": "Paid On",
+      "earningExtra": "Extra Earnings (G)",
+      "deductionExtra": "Extra Deductions (H)",
+      "amount": "Amount",
+      "bankAccount": "Bank Account Number",
+      "housingAllowance": "Housing Allowance",
+      "newPositionAllowance": "New Position Allowance",
+      "socialSecurity": "Social Security",
+      "incentMoney": "Incentive Money",
+      "salaryAfterSecurity": "Salary after (Security)",
+      "otMoney": "Amount O/T",
+      "retaliation": "Retaliation",
+      "amountOT": "Amount O/T",
+      "retainedTax": "Retained Tax",
+      "totalMoney": "Total Money",
+      "terminationAllowance": "Termination Allowance",
+      "netPay": "Net Pay",
+      "salaryConvert": "Net Pay (VND)",
+      "vacationFundProvision": "Vacation Fund",
+      "retirementFundProvision": "Retirement Fund",
+      "socialSecurityFundByCompany": "Social Security Fund by Company 6.00%",
+      "addDiff": "Add Diff",
+      "importPayslip": "Import O/T",
+      "selectFile": "Select File",
+      "downloadTemplateFile": "Download template file",
+      "templateFileExcel": "Template file (xlsx)",
+      "selectFileFormat": "Select file (.xlsx format)",
+      "rateVND": "Rate LAK -> VND",
+      "rateUSD": "Rate USD -> LAK",
+      "advanceMoney": "Advance Money",
+      "hrs": "OT",
+      "rate": "Rate"
+    },
+    "status": {
+      "generated": "Generated",
+      "paid": "Paid"
+    },
+    "businessFee": {
+      "count": "times",
+      "total": "Total"
+    },
+    "message": {
+      "payTitle": "Pay Employee Salary",
+      "payText": "Are you sure you want to pay these employees?",
+      "sendMailTitle": "Send Email to Employees",
+      "sendMailText": "Are you sure you want to send emails?",
+      "notPay": "Not Paid"
+    },
+    "notice": {
+      "generateSuccess": "Successfully generated payslip",
+      "paySuccess": "Successfully paid the salary",
+      "updateSuccess": "Successfully updated payslip",
+      "sendEmailSuccess": "Successfully sent emails",
+      "importSuccess": "Successfully imported payslip"
+    },
+    "action": {
+      "generate": "Generate Payslip",
+      "sendMail": "Send Mail",
+      "payment": "Pay Salary",
+      "updatePayslip": "Update Payslip",
+      "add": "Add",
+      "importPayslip": "Import O/T",
+      "createRate": "Exchange rate conversion",
+      "updateAmount": "Update Amount"
+    }
+  },
+  "overtime": {
+    "title": "Overtime",
+    "model": {
+      "list": "List of Overtime",
+      "employeeName": "Employee Name",
+      "hrs": "Hours",
+      "hour": "Hour",
+      "amount": "Amount",
+      "employee": "Employee",
+      "overtimeDate": "Overtime Date",
+      "isHoliday": "Holiday",
+      "isNormal": "Normal",
+      "type": "Overtime Type",
+      "rates": "Rates",
+      "details": "Details"
+    },
+    "action": {
+      "create": "Create Overtime",
+      "update": "Update Overtime",
+      "delete": "Delete Overtime",
+      "addNewLine": "Add New Line"
+    },
+    "message": {
+      "deleteItem": "Are you sure you want to delete this overtime?",
+      "deleteItems": "Are you sure you want to delete these overtime?",
+      "invalidHour": "Hour must be greater than 0",
+      "invalidEmployee": "You have not selected an employee to create overtime"
+    }
+  },
+  "termination": {
+    "title": "Employee Termination Allowance",
+    "model": {
+      "employeeName": "Employee Name",
+      "subject": "Subject",
+      "terminationType": "Termination Type",
+      "terminationDate": "Termination Date",
+      "noticeDate": "Notice Date",
+      "terminatedBy": "Terminated By",
+      "status": "Status",
+      "description": "Description",
+      "terminationAllowance": "Termination Allowance",
+      "remainingVactionDays": "Remaining Vacation Days"
+    },
+    "action": {
+      "create": "Create Termination",
+      "update": "Update Termination",
+      "delete": "Delete Termination"
+    },
+    "message": {
+      "deleteItem": "Are you sure you want to delete this termination?",
+      "deleteItems": "Are you sure you want to delete these terminations?"
+    }
+  },
+  "departments": {
+    "title": {
+      "list": "Department List",
+      "add": "Add Department",
+      "update": "Update Department"
+    },
+    "model": {
+      "name": "Department Name",
+      "manager": "Department Manager",
+      "status": "Status",
+      "createAt": "Created On",
+      "departmentInformation": "Department Information",
+      "parent": "Parent Department",
+      "exportSalaryReport": "Salary Report",
+      "exportSalaryReportNew": "Salary Report v2",
+      "exportRemunerationReport": "Remuneration Report",
+      "titleChart": "ORGANISATION CHART OF PVOIL LAO (IMPORT & EXPORT CO.)",
+      "viewChart": "View Chart",
+      "genderDepartments": "Gender Departments"
+    },
+    "action": {
+      "create": "Add Department",
+      "update": "Update Department",
+      "delete": "Delete Department",
+      "active": "Active",
+      "inactive": "Inactive",
+      "search": "Search Department",
+      "export": "Export successful report"
+    },
+    "message": {
+      "deleteTitle": "Delete Department",
+      "deleteText": "Are you sure you want to delete the department {name}?",
+      "deleteSuccess": "Successfully deleted department"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "label": {
+      "status": "Status"
+    }
+  },
+  "Modern": "Modern",
+  "designations": {
+    "title": "Positions",
+    "model": {
+      "name": "Position Name",
+      "code": "Position Code",
+      "description": "Description",
+      "departmentName": "Department Name",
+      "updateSuccess": "Position updated successfully"
+    },
+    "action": {
+      "create": "Create Position",
+      "delete": "Delete Position",
+      "update": "Update Position",
+      "deleteItem": "Are you sure you want to delete this position"
+    },
+    "message": {
+      "deleteItems": "Are you sure you want to delete these position!"
+    }
+  },
+  "eCommerce": "eCommerce",
+  "Analytical": "Analytical",
+  "Classic": "Classic",
+  "Demographical": "Demographical",
+  "Minimal": "Minimal",
+  "Contact": "Contact",
+  "Blog": "Blog",
+  "Posts": "Posts",
+  "Detail": "Detail",
+  "E-Commerce": "E-Commerce",
+  "Shop": "Shop",
+  "List": "List",
+  "Checkout": "Checkout",
+  "Chats": "Chats",
+  "User Profile": "Users Profile",
+  "Profile": "Profile",
+  "Followers": "Followers",
+  "Friends": "Friends",
+  "Gallery": "Gallery",
+  "Email": "Email",
+  "Pricing": "Pricing",
+  "Account Setting": "Account Setting",
+  "FAQ": "FAQ",
+  "Widget": "Widget",
+  "Landing Page": "Landing Page",
+  "Form Elements": "Form Elements",
+  "Autocomplete": "Autocomplete",
+  "Combobox": "Combobox",
+  "Button": "Button",
+  "Checkbox": "Checkbox",
+  "Custom Inputs": "Custom Inputs",
+  "File Inputs": "File Inputs",
+  "Radio": "Radio",
+  "Date Time": "Date Time",
+  "Select": "Select",
+  "Slider": "Slider",
+  "Switch": "Switch",
+  "Form Layout": "Form Layout",
+  "Form Horizontal": "Form Horizontal",
+  "Form Vertical": "Form Vertical",
+  "Form Custom": "Form Custom",
+  "Form Validation": "Form Validation",
+  "Editor": "Editor",
+  "Basic Table": "Basic Table",
+  "Dark Table": "Dark Table",
+  "Density Table": "Density Table",
+  "Fixed Header Table": "Fixed Header Table",
+  "Height Table": "Height Table",
+  "Ui Components": "Ui Components",
+  "Alert": "Alert",
+  "Accordion": "Accordion",
+  "Avatar": "Avatar",
+  "Chip": "Chip",
+  "Dialog": "Dialog",
+  "Menus": "Menus",
+  "Rating": "Rating",
+  "Tabs": "Tabs",
+  "Tooltip": "Tooltip",
+  "Typography": "Typography",
+  "Line": "Line",
+  "Gredient": "Gredient",
+  "Area": "Area",
+  "Candlestick": "Candlestick",
+  "Column": "Column",
+  "Doughnut & Pie": "Doughnut & Pie",
+  "Radialbar & Radar": "Radialbar & Radar",
+  "Login": "Login",
+  "Side Login": "Side Login",
+  "Boxed Login": "Boxed Login",
+  "Register": "Register",
+  "Side Register": "Side Register",
+  "Boxed Register": "Boxed Register",
+  "Forgot Password": "Forgot Password",
+  "Side Forgot Password": "Side Forgot Password",
+  "Boxed Forgot Password": "Boxed Forgot Password",
+  "Two Steps": "Two Steps",
+  "Side Two Steps": "Side Two Steps",
+  "Boxed Two Steps": "Boxed Two Steps",
+  "Error": "Error",
+  "Maintenance": "Maintenance",
+  "Menu Level": "Menu level",
+  "Level 1": "Level 1",
+  "Level 2": "Level 2",
+  "Level 3": "Level 3",
+  "Disabled": "Disabled",
+  "Sub Caption": "Sub Caption",
+  "Outlined": "Outlined",
+  "External Link": "External Link",
+  "Editable Table": "Editable Table",
+  "Cards": "Cards",
+  "Banners": "Banners",
+  "Charts": "Charts",
+  "Material": "Material",
+  "Tabler": "Tabler",
+  "Dashboard": "Dashboard",
+  "Apps": "Apps",
+  "Pages": "Pages",
+  "Forms": "Forms",
+  "Tables": "Tables",
+  "Icons": "Icons"
+}
