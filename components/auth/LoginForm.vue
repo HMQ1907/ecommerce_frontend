@@ -33,6 +33,8 @@ const login = handleSubmit(() => {
     redirect: false,
   })
     .then(({ error, ok }) => {
+      console.log('error', error)
+      console.log('ok', ok)
       let firstRoute = ''
       if (ok) {
         const scope = data.value?.scope || []

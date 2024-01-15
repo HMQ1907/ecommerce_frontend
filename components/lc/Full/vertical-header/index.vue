@@ -50,7 +50,7 @@ const getCart = computed(() => {
     <!-- translate -->
     <!-- ---------------------------------------------- -->
     <!--    <LcFullVerticalHeaderLanguageDD />-->
-    <LcFullVerticalHeaderBranchDD />
+    <!--    <LcFullVerticalHeaderBranchDD />-->
 
     <!-- ---------------------------------------------- -->
     <!-- ShoppingCart -->

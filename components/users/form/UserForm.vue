@@ -2,7 +2,6 @@
 import { useI18n } from 'vue-i18n'
 import RoleAutocomplete from '@/components/users/controls/RoleAutocomplete'
 import type { UserType } from '@/types/users/UserTypes'
-import BranchAutocomplete from '~/components/common/autocomplete/BranchAutocomplete.vue'
 
 const props = defineProps({
   value: {
@@ -29,9 +28,6 @@ const form = computed<UserType>({
 
 <template>
   <v-row dense>
-    <v-col v-if="!isProfile" cols="12" md="6">
-      <branch-autocomplete v-bind="form.branch_id" :label="$t('employees.model.branch')" />
-    </v-col>
     <v-col cols="12" md="6">
       <v-text-field v-bind="form.name" :label="$t('users.model.fullName')" />
     </v-col>

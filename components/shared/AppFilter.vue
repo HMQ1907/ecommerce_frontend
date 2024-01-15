@@ -7,10 +7,6 @@ import FilterMenu from '@/components/shared/FilterMenu'
 import EmployeeAutocomplete from '@/components/common/autocomplete/EmployeeAutocomplete'
 import RoleAutocomplete from '@/components/users/controls/RoleAutocomplete'
 import DatePicker from '@/components/common/DatePicker'
-import BranchAutocomplete from '@/components/common/autocomplete/BranchAutocomplete'
-import DepartmentAutocomplete from '@/components/common/autocomplete/DepartmentAutocomplete'
-import DocumentCategoryAutocomplete from '@/components/documents/controls/DocumentCategoryAutocomplete'
-import DesignationAutocomplete from '@/components/common/autocomplete/DesignationAutocomplete'
 
 const props = defineProps({
   value: {
@@ -75,18 +71,10 @@ const renderComponent = (type: string) => {
       return VAutocomplete
     case 'EmployeeAutocomplete':
       return EmployeeAutocomplete
-    case 'DepartmentAutocomplete':
-      return DepartmentAutocomplete
-    case 'BranchAutocomplete':
-      return BranchAutocomplete
-    case 'DocumentCategoryAutocomplete':
-      return DocumentCategoryAutocomplete
     case 'date':
       return DatePicker
     case 'RoleAutocomplete':
       return RoleAutocomplete
-    case 'DesignationAutocomplete':
-      return DesignationAutocomplete
     default:
       return VTextField
   }

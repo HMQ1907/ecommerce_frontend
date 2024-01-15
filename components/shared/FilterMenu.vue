@@ -3,8 +3,6 @@ import { useI18n } from 'vue-i18n'
 import { VTextField, VAutocomplete, VSelect } from 'vuetify/lib/components/index.mjs'
 import { cloneDeep } from 'lodash'
 import EmployeeAutocomplete from '@/components/common/autocomplete/EmployeeAutocomplete'
-import DepartmentAutocomplete from '@/components/common/autocomplete/DepartmentAutocomplete'
-import DesignationAutocomplete from '@/components/common/autocomplete/DesignationAutocomplete'
 
 const props = defineProps({
   filters: {
@@ -29,10 +27,6 @@ const renderComponent = (type: string) => {
       return VAutocomplete
     case 'EmployeeAutocomplete':
       return EmployeeAutocomplete
-    case 'DepartmentAutocomplete':
-      return DepartmentAutocomplete
-    case 'DesignationAutocomplete':
-      return DesignationAutocomplete
     default:
       return VTextField
   }
